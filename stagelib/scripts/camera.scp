@@ -1,0 +1,20 @@
+STAGE_SCRIPT
+camNorth enable
+camNorth f 45
+-sleep 5
+camNorth f 65
+-sleep 5
+camNorth clipfront 500
+-sleep 5
+camNorth cliprear 2000
+-sleep 5
+camNorth cliprear 50000
+-sleep 5
+camNorth clipfront 5
+-sleep 5
+camNorth disable
+-sleep 5
+camNorth enable
+-sleep 5
+-view birdseye 10
+NULL

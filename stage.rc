@@ -1,0 +1,2224 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\stage.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#include ""afxolesv.rc""       // OLE server resources\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\stage.ico"
+IDR_STAGETYPE           ICON    DISCARDABLE     "res\\stageDoc.ico"
+IDR_MAINFRAME1          ICON    DISCARDABLE     "res\\idr_main.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP  MOVEABLE PURE   "res\\Toolbar.bmp"
+IDR_SRVR_INPLACE        BITMAP  MOVEABLE PURE   "res\\IToolbar.bmp"
+IDB_PLAYBACK_BACKGROUND BITMAP  DISCARDABLE     "res\\bitmap_test.bmp"
+IDB_REWIND              BITMAP  DISCARDABLE     "res\\rewind.bmp"
+IDB_CIRCLE_GREEN2       BITMAP  DISCARDABLE     "res\\play.bmp"
+IDB_PAUSE               BITMAP  DISCARDABLE     "res\\pause.bmp"
+IDB_WALK                BITMAP  DISCARDABLE     "res\\walk.bmp"
+IDB_PAN                 BITMAP  DISCARDABLE     "res\\pan.bmp"
+IDB_PLAY                BITMAP  DISCARDABLE     "res\\play1.bmp"
+IDB_CIRCLE_YELLOW       BITMAP  DISCARDABLE     "res\\circle_g.bmp"
+IDB_CIRCLE_GRAY         BITMAP  DISCARDABLE     "res\\bmp00001.bmp"
+IDB_DEVICE_TRANSLATE    BITMAP  DISCARDABLE     "res\\pan1.bmp"
+IDB_SQUARE_GRAY         BITMAP  DISCARDABLE     "res\\square_g.bmp"
+IDB_SQUARE_PURPLE       BITMAP  DISCARDABLE     "res\\square_p.bmp"
+IDB_SIM_REC             BITMAP  DISCARDABLE     "res\\sim_rec.bmp"
+IDB_CIRCLE_GREEN1       BITMAP  DISCARDABLE     "res\\bmp00002.bmp"
+IDB_CIRCLE_RED1         BITMAP  DISCARDABLE     "res\\circle_r.bmp"
+IDB_CIRCLE_YELLOW1      BITMAP  DISCARDABLE     "res\\circle_y.bmp"
+IDB_DEVICE_TRANSLATE1   BITMAP  DISCARDABLE     "res\\device_t.bmp"
+IDB_PAN1                BITMAP  DISCARDABLE     "res\\bmp00003.bmp"
+IDB_PAUSE1              BITMAP  DISCARDABLE     "res\\pause1.bmp"
+IDB_PLAY1               BITMAP  DISCARDABLE     "res\\bmp00004.bmp"
+IDB_REWIND1             BITMAP  DISCARDABLE     "res\\rewind1.bmp"
+IDB_SIM_REC1            BITMAP  DISCARDABLE     "res\\sim_rec1.bmp"
+IDB_WALK1               BITMAP  DISCARDABLE     "res\\walk1.bmp"
+IDB_IWALK2              BITMAP  DISCARDABLE     "res\\bitmap_t.bmp"
+IDB_BUTTON_BACKGROUND   BITMAP  DISCARDABLE     "res\\button_b.bmp"
+IDB_IWALK3              BITMAP  DISCARDABLE     "res\\bmp00005.bmp"
+IDB_BUTTON_BACKGROUND1  BITMAP  DISCARDABLE     "res\\bmp00006.bmp"
+IDB_TOP_BACKGROUND      BITMAP  DISCARDABLE     "res\\bmp00007.bmp"
+IDB_IWALK               BITMAP  DISCARDABLE     "res\\walk3.bmp"
+IDB_IPAN                BITMAP  DISCARDABLE     "res\\ipan.bmp"
+IDB_IDEVICE_TRANSLATE   BITMAP  DISCARDABLE     "res\\idevice_.bmp"
+IDB_IEYE                BITMAP  DISCARDABLE     "res\\ieye.bmp"
+IDB_ISCROLL             BITMAP  DISCARDABLE     "res\\iscroll.bmp"
+IDB_IRECORD             BITMAP  DISCARDABLE     "res\\irecord.bmp"
+IDB_ISOCKET             BITMAP  DISCARDABLE     "res\\isocket.bmp"
+IDB_LEFT_BACKGROUND     BITMAP  DISCARDABLE     "res\\bmp00008.bmp"
+IDB_CIRCLE_RED2         BITMAP  DISCARDABLE     "res\\bmp00009.bmp"
+IDB_CIRCLE_WHITE        BITMAP  DISCARDABLE     "res\\circle_w.bmp"
+IDB_CIRCLE_CONNECT_GREEN BITMAP  DISCARDABLE     "res\\circle_c.bmp"
+IDB_EYE_BACKGROUND      BITMAP  DISCARDABLE     "res\\eye_back.bmp"
+IDB_IPLAY               BITMAP  DISCARDABLE     "res\\iplay.bmp"
+IDB_IPAUSE              BITMAP  DISCARDABLE     "res\\ipause.bmp"
+IDB_IREWIND             BITMAP  DISCARDABLE     "res\\irewind.bmp"
+IDB_BITMAP1             BITMAP  DISCARDABLE     "res\\button256g.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "res\\button24.bmp"
+IDB_PLAY24              BITMAP  DISCARDABLE     "res\\play24g.bmp"
+IDB_PAUSE24             BITMAP  DISCARDABLE     "res\\pause24g.bmp"
+IDB_REWIND24            BITMAP  DISCARDABLE     "res\\rewind24g.bmp"
+IDB_WALK24              BITMAP  DISCARDABLE     "res\\walk24g.bmp"
+IDB_SCRIPT24            BITMAP  DISCARDABLE     "res\\script24g.bmp"
+IDB_EYE24               BITMAP  DISCARDABLE     "res\\eye24g.bmp"
+IDB_SOCKET24            BITMAP  DISCARDABLE     "res\\socket24g.bmp"
+IDB_RECORD24            BITMAP  DISCARDABLE     "res\\record24g.bmp"
+IDB_PAN24               BITMAP  DISCARDABLE     "res\\pan24g.bmp"
+IDB_DEVICE_TRANSLATE24  BITMAP  DISCARDABLE     "res\\devtrans24g.bmp"
+IDB_PAUSE24_HL          BITMAP  DISCARDABLE     "res\\pause24gHL.bmp"
+IDB_PLAY24_HL           BITMAP  DISCARDABLE     "res\\play24gHL.bmp"
+IDB_REWIND24_HL         BITMAP  DISCARDABLE     "res\\rewind24gHL.bmp"
+IDB_LOOP                BITMAP  DISCARDABLE     "res\\loop_on1.bmp"
+IDB_LOOP_ON             BITMAP  DISCARDABLE     "res\\loop1.bmp"
+IDB_CIRCLE_CONNECT      BITMAP  DISCARDABLE     "res\\bmp00010.bmp"
+IDB_CIRCLE_CONNECT_GREEN1 BITMAP  DISCARDABLE     "res\\bmp00011.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    BUTTON      ID_APP_ABOUT
+END
+
+IDR_SRVR_INPLACE TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM "Revert",                      ID_FILE_REVERT
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Prefs...\t Ctrl+Y",           ID_PREFS
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "Eye Info...\tCtrl+E",         ID_VIEW_EYE_INFO
+        MENUITEM SEPARATOR
+        MENUITEM "Current Part\tCtrl+R",        ID_VIEW_CURRENT_PART
+        MENUITEM "Current Tag\tCtrl+T",         ID_VIEW_CURRENT_TAG
+        MENUITEM SEPARATOR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Size"
+    BEGIN
+        MENUITEM "320 X 240",                   ID_SIZE_320X240
+        MENUITEM "640 X 480",                   ID_SIZE_640X480
+        MENUITEM "720 X 480",                   ID_SIZE_720X480
+        MENUITEM "Custom...",                   ID_SIZE_CUSTOM
+    END
+    POPUP "&Device"
+    BEGIN
+        MENUITEM "Choose...\tCtrl+D",           ID_DEVICE_CHOOSE
+        MENUITEM "Attach...\tCtrl+F",           ID_DEVICE_ATTACH
+        MENUITEM "Detach\tCtrl+G",              ID_DEVICE_DETACH
+        MENUITEM "Delete\tCtrl+H",              ID_DEVICE_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "Create...\tCtrl+J",           ID_DEVICE_CREATE
+        MENUITEM "Clone...\tCtrl+K",            ID_DEVICE_CLONE
+        MENUITEM "Import...\tCtrl+L",           ID_DEVICE_IMPORT
+        MENUITEM "Export...\tCtrl+;",           ID_DEVICE_EXPORT
+        MENUITEM "Rename...",                   ID_DEVICE_RENAME
+    END
+    POPUP "&Part"
+    BEGIN
+        MENUITEM "Choose...",                   ID_PART_CHOOSE
+        MENUITEM "Update...",                   ID_PART_UPDATE
+        MENUITEM SEPARATOR
+        MENUITEM "Attach...",                   ID_PART_ATTACH
+        MENUITEM "Rename...",                   ID_PART_RENAME
+        MENUITEM "Delete",                      ID_PART_DELETE
+    END
+    POPUP "Tag"
+    BEGIN
+        MENUITEM "Choose...",                   ID_TAG_CHOOSE
+        MENUITEM "Tag on TCF\tCtrl+B",          ID_TAG_TAG_ON_TCF
+        MENUITEM "Create\tCtrl+M",              ID_TAG_CREATE
+        MENUITEM "Delete\tCtrl+,",              ID_TAG_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "New Path...\tCtrl+.",         ID_TAG_NEW_PATH
+        MENUITEM "Choose Path...",              ID_TAG_CHOOSE_PATH
+        MENUITEM "Delete Path",                 ID_TAG_DELETE_PATH
+        MENUITEM "Reattach Path\tCtrl+/",       ID_TAG_REATTACH_PATH
+        MENUITEM "Rename Path...",              ID_TAG_RENAME_PATH
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About stage...",             ID_APP_ABOUT
+        MENUITEM "Analysis...\tCtrl+A",         ID_HELP_ANALYSIS
+    END
+END
+
+IDR_SRVR_INPLACE MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+    END
+    MENUITEM SEPARATOR
+    MENUITEM SEPARATOR
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About stage...",             ID_APP_ABOUT
+    END
+END
+
+IDR_SRVR_EMBEDDED MENU PRELOAD DISCARDABLE 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&Update\tCtrl+S",             ID_FILE_UPDATE
+        MENUITEM "Save Copy &As...",            ID_FILE_SAVE_COPY_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About stage...",             ID_APP_ABOUT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    188,            ID_TAG_DELETE,          VIRTKEY, CONTROL, NOINVERT
+    190,            ID_TAG_NEW_PATH,        VIRTKEY, CONTROL, NOINVERT
+    191,            ID_TAG_REATTACH_PATH,   VIRTKEY, CONTROL, NOINVERT
+    59,             ID_DEVICE_EXPORT,       VIRTKEY, CONTROL, NOINVERT
+    "A",            ID_HELP_ANALYSIS,       VIRTKEY, CONTROL, NOINVERT
+    "B",            ID_TAG_TAG_ON_TCF,      VIRTKEY, CONTROL, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_DEVICE_CHOOSE,       VIRTKEY, CONTROL, NOINVERT
+    "E",            ID_VIEW_EYE_INFO,       VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_DEVICE_ATTACH,       VIRTKEY, CONTROL, NOINVERT
+    "G",            ID_DEVICE_DETACH,       VIRTKEY, CONTROL, NOINVERT
+    "H",            ID_DEVICE_DELETE,       VIRTKEY, CONTROL, NOINVERT
+    "J",            ID_DEVICE_CREATE,       VIRTKEY, CONTROL, NOINVERT
+    "K",            ID_DEVICE_CLONE,        VIRTKEY, CONTROL, NOINVERT
+    "L",            ID_DEVICE_IMPORT,       VIRTKEY, CONTROL, NOINVERT
+    "M",            ID_TAG_CREATE,          VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "Q",            ID_FILE_CLOSE,          VIRTKEY, CONTROL, NOINVERT
+    "R",            ID_VIEW_CURRENT_PART,   VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "T",            ID_VIEW_CURRENT_TAG,    VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "Y",            ID_PREFS,               VIRTKEY, CONTROL, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+END
+
+IDR_SRVR_INPLACE ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_ESCAPE,      ID_CANCEL_EDIT_SRVR,    VIRTKEY, NOINVERT
+END
+
+IDR_SRVR_EMBEDDED ACCELERATORS PRELOAD MOVEABLE PURE 
+BEGIN
+    "S",            ID_FILE_UPDATE,         VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 217, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About stage"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "stage Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright © 1994-2002",IDC_STATIC,40,21,79,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,32,14,WS_GROUP
+    LTEXT           "Brian E. Jones",IDC_STATIC,40,32,79,8
+END
+
+IDD_STAGE_TOP DIALOGEX 0, 0, 523, 42
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         176,IDC_TOP_BACKGROUND,"Static",SS_BITMAP,0,0,657,42
+    CONTROL         146,IDC_PLAYBACK_BACKGROUND,"Static",SS_BITMAP,52,2,233,
+                    29
+    CONTROL         198,IDC_REWIND,"Static",SS_BITMAP | SS_NOTIFY,58,4,21,20
+    CONTROL         197,IDC_PAUSE,"Static",SS_BITMAP | SS_NOTIFY,79,4,21,20
+    CONTROL         196,IDC_PLAY,"Static",SS_BITMAP | SS_NOTIFY,100,4,21,20
+    EDITTEXT        IDC_MINUTES,161,16,15,12,ES_AUTOHSCROLL,
+                    WS_EX_TRANSPARENT
+    EDITTEXT        IDC_SECONDS,179,16,15,12,ES_AUTOHSCROLL,
+                    WS_EX_TRANSPARENT
+    EDITTEXT        IDC_FRAMES,197,16,15,12,ES_AUTOHSCROLL,WS_EX_TRANSPARENT
+    CONTROL         "Slider1",IDC_TIME,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,132,2,109,11,WS_EX_TRANSPARENT | 
+                    WS_EX_STATICEDGE
+    LTEXT           "Message",IDC_MESSAGE,59,33,457,8,NOT WS_GROUP,
+                    WS_EX_TRANSPARENT
+END
+
+IDD_STAGE_LEFT DIALOGEX 0, 0, 43, 346
+STYLE WS_CHILD
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         203,IDC_WALK,"Static",SS_BITMAP | SS_NOTIFY,2,5,25,23,
+                    WS_EX_TRANSPARENT
+    CONTROL         210,IDC_PAN,"Static",SS_BITMAP | SS_NOTIFY,2,29,25,23,
+                    WS_EX_TRANSPARENT
+    CONTROL         211,IDC_DEVICE_TRANSLATE,"Static",SS_BITMAP | SS_NOTIFY,
+                    2,53,25,23,WS_EX_TRANSPARENT
+    CONTROL         207,IDC_EYE,"Static",SS_BITMAP | SS_NOTIFY,2,113,25,23,
+                    WS_EX_TRANSPARENT
+    CONTROL         206,IDC_SCRIPT,"Static",SS_BITMAP | SS_NOTIFY,2,137,25,
+                    23,WS_EX_TRANSPARENT
+    CONTROL         209,IDC_RECORD,"Static",SS_BITMAP | SS_NOTIFY,2,161,25,
+                    23,WS_EX_TRANSPARENT
+    CONTROL         208,IDC_SOCKET,"Static",SS_BITMAP | SS_NOTIFY,2,185,25,
+                    23,WS_EX_TRANSPARENT
+    CONTROL         186,IDC_WALK_ON,"Static",SS_BITMAP,27,13,7,7,
+                    WS_EX_TRANSPARENT
+    CONTROL         186,IDC_PAN_ON,"Static",SS_BITMAP,27,37,7,7,
+                    WS_EX_TRANSPARENT
+    CONTROL         186,IDC_DEVICE_TRANSLATE_ON,"Static",SS_BITMAP,27,61,7,7,
+                    WS_EX_TRANSPARENT
+    CONTROL         154,IDC_EYE_ON,"Static",SS_BITMAP,29,122,6,6,
+                    WS_EX_TRANSPARENT
+    CONTROL         154,IDC_SCRIPT_ON,"Static",SS_BITMAP,29,146,6,6,
+                    WS_EX_TRANSPARENT
+    CONTROL         154,IDC_RECORD_ON,"Static",SS_BITMAP,29,169,6,6,
+                    WS_EX_TRANSPARENT
+    CONTROL         154,IDC_SOCKET_LISTEN,"Static",SS_BITMAP,29,194,6,6,
+                    WS_EX_TRANSPARENT
+    CONTROL         187,IDC_SOCKET_CONNECT,"Static",SS_BITMAP,29,194,7,6,
+                    WS_EX_TRANSPARENT
+    CONTROL         184,IDC_LEFT_BACKGROUND,"Static",SS_BITMAP,0,0,45,401
+END
+
+IDD_PREFS_RENDER DIALOG DISCARDABLE  0, 0, 208, 141
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Render"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "output bitmap",IDC_OUTPUT_BITMAP,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,15,20,62,10
+    CONTROL         "bounding box",IDC_BOUNDING_BOX,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,15,105,77,10
+    EDITTEXT        IDC_FRAMES_PER_SECOND,28,34,17,12,ES_AUTOHSCROLL
+    CONTROL         "anti-aliasing",IDC_ANTIALIAS,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,28,51,77,10
+    CONTROL         "motion blur",IDC_MOTION_BLUR,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,28,65,77,8
+    EDITTEXT        IDC_MOTION_BLUR_ITERATIONS,86,77,17,12,ES_AUTOHSCROLL
+    GROUPBOX        "Animation",IDC_STATIC,7,7,118,92
+    LTEXT           "frames per second",IDC_STATIC,49,36,65,10
+    LTEXT           "iterations:",IDC_STATIC,52,78,32,10
+    PUSHBUTTON      "Defaults",IDC_RENDER_DEFAULTS,164,17,36,14
+END
+
+IDD_PREFS_GRID DIALOG DISCARDABLE  0, 0, 207, 162
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Grid"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Visisble",IDC_GRID_VISIBLE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,51,81,40,15
+    EDITTEXT        IDC_GRID_LENGTH,14,35,29,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_GRID_WIDTH,60,35,29,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_GRID_SPACING,81,58,29,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_GRID_RED,13,109,19,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_GRID_GREEN,13,123,19,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_GRID_BLUE,13,137,19,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "length",IDC_GRID_LENGTH_RESTORE,14,23,29,11,BS_FLAT
+    PUSHBUTTON      "width",IDC_GRID_WIDTH_RESTORE,60,23,29,11,BS_FLAT
+    PUSHBUTTON      "spacing",IDC_GRID_SPACING_RESTORE,50,58,29,11,BS_FLAT
+    PUSHBUTTON      "red",IDC_GRID_RED_RESTORE,93,111,25,11,BS_FLAT
+    PUSHBUTTON      "green",IDC_GRID_GREEN_RESTORE,93,124,25,11,BS_FLAT
+    PUSHBUTTON      "blue",IDC_GRID_BLUE_RESTORE,93,137,25,11,BS_FLAT
+    CONTROL         "Slider1",IDC_GRID_SLIDER_RED,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,32,112,60,11
+    CONTROL         "Slider1",IDC_GRID_SLIDER_GREEN,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,32,125,60,11
+    CONTROL         "Slider1",IDC_GRID_SLIDER_BLUE,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,32,138,60,11
+    LTEXT           "X",IDC_STATIC,49,37,8,9
+    GROUPBOX        "Dimensions",IDC_STATIC,7,7,118,73
+    GROUPBOX        "Color",IDC_STATIC,7,99,118,57
+    PUSHBUTTON      "Defaults",IDC_GRID_DEFAULTS,164,17,36,14
+END
+
+IDD_PART DIALOG DISCARDABLE  0, 0, 263, 153
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Part Characteristics"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,198,132,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,147,132,50,14
+    LTEXT           "Name:",IDC_STATIC,7,7,28,11
+    EDITTEXT        IDC_PART_NAME,33,7,71,12,ES_AUTOHSCROLL
+    COMBOBOX        IDC_COMBO1,155,73,86,35,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Material",IDC_STATIC,119,7,129,85
+    EDITTEXT        IDC_PART_RED,127,18,24,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PART_GREEN,127,30,24,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PART_BLUE,127,42,24,13,ES_AUTOHSCROLL
+    CONTROL         "Slider1",IDC_PART_SLIDER_RED,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,151,20,62,11
+    CONTROL         "Slider1",IDC_PART_SLIDER_GREEN,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,151,31,62,11
+    CONTROL         "Slider1",IDC_PART_SLIDER_BLUE,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,151,44,62,11
+    EDITTEXT        IDC_PART_ALPHA,127,56,24,13,ES_AUTOHSCROLL
+    CONTROL         "Slider1",IDC_PART_SLIDER_ALPHA,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,151,57,62,11
+    LTEXT           "red",IDC_STATIC,213,21,20,8
+    LTEXT           "green",IDC_STATIC,213,32,20,8
+    LTEXT           "blue",IDC_STATIC,213,44,20,8
+    LTEXT           "alpha",IDC_STATIC,213,57,20,8
+    GROUPBOX        "Render",IDC_STATIC,17,32,87,83
+    CONTROL         "Wireframe",IDC_PART_WIREFRAME,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,26,46,58,13
+    CONTROL         "Polygon Edge",IDC_PART_POLYLINE,"Button",
+                    BS_AUTORADIOBUTTON,26,57,58,13
+    CONTROL         "Polygon Point",IDC_PART_POLYPOINT,"Button",
+                    BS_AUTORADIOBUTTON,26,70,58,13
+    CONTROL         "Filled Polygon",IDC_PART_POLYFILLED,"Button",
+                    BS_AUTORADIOBUTTON,26,82,58,13
+    CONTROL         "Texture Map",IDC_PART_TEXTURE_MAP,"Button",
+                    BS_AUTORADIOBUTTON,26,96,58,13
+    PUSHBUTTON      "Texture...",IDC_PART_TEXTURE2,121,101,48,14
+    EDITTEXT        IDC_PART_NAME2,172,103,76,12,ES_AUTOHSCROLL
+END
+
+IDD_DEVICE_PART DIALOG DISCARDABLE  0, 0, 163, 377
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_TRANSLATE_X,25,75,41,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRANSLATE_Y,25,88,41,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRANSLATE_Z,25,101,41,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ROTATE_X,80,75,29,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ROTATE_Y,80,88,29,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ROTATE_Z,80,101,29,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "",IDC_TRANSLATE_INCREASE_X,67,75,9,6,BS_FLAT
+    PUSHBUTTON      "",IDC_TRANSLATE_DECREASE_X,67,81,9,6,BS_FLAT
+    PUSHBUTTON      "",IDC_TRANSLATE_INCREASE_Y,67,88,9,6,BS_FLAT
+    PUSHBUTTON      "",IDC_TRANSLATE_DECREASE_Y,67,94,9,6,BS_FLAT
+    PUSHBUTTON      "",IDC_TRANSLATE_INCREASE_Z,67,101,9,6,BS_FLAT
+    PUSHBUTTON      "",IDC_TRANSLATE_DECREASE_Z,67,107,9,6,BS_FLAT
+    PUSHBUTTON      "",IDC_ROTATE_INCREASE_X,110,75,9,6,BS_FLAT
+    PUSHBUTTON      "",IDC_ROTATE_DECREASE_X,110,81,9,6,BS_FLAT
+    PUSHBUTTON      "",IDC_ROTATE_INCREASE_Y,110,88,9,6,BS_FLAT
+    PUSHBUTTON      "",IDC_ROTATE_DECREASE_Y,110,94,9,6,BS_FLAT
+    PUSHBUTTON      "",IDC_ROTATE_INCREASE_Z,110,101,9,6,BS_FLAT
+    PUSHBUTTON      "",IDC_ROTATE_DECREASE_Z,110,107,9,6,BS_FLAT
+    PUSHBUTTON      "Translate",IDC_TRANSLATE_RESTORE,25,61,36,12,BS_FLAT
+    PUSHBUTTON      "Rotate",IDC_ROTATE_RESTORE,78,61,36,12,BS_FLAT
+    COMBOBOX        IDC_TXYZ,116,60,37,94,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    COMBOBOX        IDC_SNAP_TO_LIST,52,120,82,48,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Snap To",IDC_SNAP_TO,13,120,34,13
+    EDITTEXT        IDC_MASS,106,140,35,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BAR_CODE,77,154,64,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PART_RED,15,182,24,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PART_GREEN,15,195,24,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PART_BLUE,15,208,24,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PART_ALPHA,15,221,24,13,ES_AUTOHSCROLL
+    COMBOBOX        IDC_PART_MATERIAL,53,238,63,48,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Inherit",IDC_PART_PARENT_INHERIT,15,238,28,13
+    PUSHBUTTON      "Red",IDC_RED_RESTORE,103,182,28,12,BS_FLAT
+    PUSHBUTTON      "Green",IDC_GREEN_RESTORE,103,195,28,12,BS_FLAT
+    PUSHBUTTON      "Blue",IDC_BLUE_RESTORE,103,208,28,12,BS_FLAT
+    PUSHBUTTON      "Alpha",IDC_ALPHA_RESTORE,103,221,28,12,BS_FLAT
+    CONTROL         "Slider1",IDC_PART_SLIDER_RED,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,41,183,62,11
+    CONTROL         "Slider1",IDC_PART_SLIDER_GREEN,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,41,196,62,11
+    CONTROL         "Slider1",IDC_PART_SLIDER_BLUE,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,41,209,62,11
+    CONTROL         "Slider1",IDC_PART_SLIDER_ALPHA,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,41,222,62,11
+    EDITTEXT        IDC_PART_SHININESS,15,261,24,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Shininess",IDC_SHININESS_RESTORE,104,262,38,12,BS_FLAT
+    CONTROL         "Slider1",IDC_PART_SLIDER_SHININESS,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,41,263,62,11
+    COMBOBOX        IDC_PART_RENDER_MODE,67,280,88,48,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "New...",IDC_TEXTURE_NEW,14,324,28,13
+    PUSHBUTTON      "Delete",IDC_TEXTURE_DELETE,42,324,28,13
+    PUSHBUTTON      "Rotate",IDC_TEXTURE_ROTATE,14,353,36,12
+    CONTROL         "blending",IDC_TEXTURE_BLENDING,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,24,340,43,10
+    CONTROL         "Visible:",IDC_DEVICE_VISIBLE,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,7,28,37,10
+    DEFPUSHBUTTON   "OK",IDOK,107,33,48,14
+    PUSHBUTTON      "Cancel",IDCANCEL,59,33,48,14
+    LTEXT           "X",IDC_STATIC,15,78,9,9
+    LTEXT           "Y",IDC_STATIC,15,90,9,9
+    LTEXT           "Z",IDC_STATIC,15,102,9,9
+    GROUPBOX        "Offset",IDC_STATIC,7,51,148,87
+    GROUPBOX        "Material",IDC_STATIC,7,171,132,85
+    EDITTEXT        IDC_DEVICE_PARENT_NAME,63,2,92,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER
+    LTEXT           "Render Mode:",IDC_STATIC,15,282,46,8
+    LTEXT           "Device's Parent:",IDC_STATIC,7,2,56,9
+    LTEXT           "Part's Parent:",IDC_STATIC,7,15,56,9
+    EDITTEXT        IDC_PART_PARENT_NAME,63,15,92,12,ES_AUTOHSCROLL | 
+                    ES_READONLY | NOT WS_BORDER
+    GROUPBOX        "Texture",IDC_STATIC,7,312,70,58
+    RTEXT           "Mass:",IDC_STATIC,58,143,45,8
+    RTEXT           "Bar Code:",IDC_STATIC,29,156,45,8
+    EDITTEXT        IDC_SMOOTH_SHADE_ANGLE,94,296,24,13,ES_AUTOHSCROLL
+    LTEXT           "smooth shade angle:",IDC_STATIC,23,298,66,8
+    GROUPBOX        "Origin",IDC_STATIC,85,312,70,58
+    PUSHBUTTON      "Alternate",IDC_ORIGIN_ALT_CREATE,110,352,36,12,BS_FLAT
+    CONTROL         "visible",IDC_ORIGIN_VISIBLE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,98,326,35,10
+    CONTROL         "",IDC_ORIGIN_ALT_DISPLAYED,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,98,354,10,8
+END
+
+IDD_PREFS_LIGHTING DIALOG DISCARDABLE  0, 0, 207, 165
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Lighting"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_LIGHTING_SUN_ALTITUDE,18,22,33,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LIGHTING_SUN_AZIMUTH,18,36,33,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LIGHTING_SUN_INTENSITY,18,68,24,13,ES_AUTOHSCROLL
+    CONTROL         "Two Sided Model",IDC_TWO_SIDE,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,18,136,73,9
+    PUSHBUTTON      "left",IDC_LIGHTING_SUN_LEFT,18,105,27,14
+    PUSHBUTTON      "front",IDC_LIGHTING_SUN_FRONT,47,105,27,14
+    PUSHBUTTON      "right",IDC_LIGHTING_SUN_RIGHT,76,105,27,14
+    PUSHBUTTON      "Altitude",IDC_LIGHTING_SUN_ALTITUDE_RESTORE,54,23,31,11,
+                    BS_FLAT
+    PUSHBUTTON      "Azimuth",IDC_LIGHTING_SUN_AZIMUTH_RESTORE,54,36,31,11,
+                    BS_FLAT
+    PUSHBUTTON      "Intensity",IDC_LIGHTING_SUN_INTENSITY_RESTORE,17,55,31,
+                    11,BS_FLAT
+    CONTROL         "Slider1",IDC_LIGHTING_SUN_SLIDER_INTENSITY,
+                    "msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,
+                    43,70,75,11
+    GROUPBOX        "Sun",IDC_STATIC,7,7,118,124
+    LTEXT           "Position...",IDC_STATIC,18,94,41,10
+    PUSHBUTTON      "Defaults",IDC_LIGHTING_DEFAULTS,164,17,36,14
+END
+
+IDD_DEVICE_TREE DIALOGEX 0, 0, 278, 193
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select Device..."
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,220,172,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,220,156,50,14
+    CONTROL         "Tree1",IDC_DEVICE_TREE,"SysTreeView32",TVS_HASLINES | 
+                    WS_BORDER | WS_TABSTOP,7,7,207,179,WS_EX_CLIENTEDGE
+END
+
+IDD_CHOOSE_NAME DIALOG DISCARDABLE  0, 0, 190, 207
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT_NAME,7,19,117,14,ES_AUTOHSCROLL
+    LISTBOX         IDC_LIST_NAME,7,39,117,161,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,133,52,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,133,39,50,14
+    LTEXT           "Enter a unique name:",IDC_STATIC,7,7,110,10
+END
+
+IDD_EYE_MOTION DIALOG DISCARDABLE  0, 0, 381, 186
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Eye Motion List"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,324,165,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,324,150,50,14
+    LISTBOX         IDC_EYE_MOTION_LIST,7,7,310,172,LBS_SORT | 
+                    LBS_MULTIPLESEL | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Remove",IDC_REMOVE,324,94,50,14
+    PUSHBUTTON      "Clear All",IDC_CLEAR_ALL,324,110,50,14
+END
+
+IDD_CHOOSE_DEVICE DIALOG DISCARDABLE  0, 0, 186, 210
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_LIST_NAME,7,24,117,179,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,129,39,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,129,25,50,14
+    EDITTEXT        IDC_EDIT_NAME,7,7,115,14,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+    LTEXT           "*** (invisible)",IDC_INVISIBLE,128,7,51,8
+END
+
+IDD_DEVICE_TRANSFORMATION DIALOG DISCARDABLE  0, 0, 175, 32
+STYLE WS_POPUP | WS_BORDER
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_ROTATE,75,16,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRANSLATE,75,2,25,12,ES_AUTOHSCROLL
+    CONTROL         "Slider1",IDC_SLIDER_ROTATE,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,101,16,59,12
+    RADIOBUTTON     "+",IDC_TRANSLATE_INCREASE,105,2,13,12,BS_PUSHLIKE
+    CONTROL         "Z",IDC_XYZ,"Button",BS_AUTORADIOBUTTON | BS_PUSHLIKE | 
+                    BS_FLAT,7,2,15,15
+    CONTROL         "Translate",IDC_TRANSLATE_RESTORE,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_FLAT,39,2,34,12
+    RADIOBUTTON     "-",IDC_TRANSLATE_DECREASE,119,2,13,12,BS_PUSHLIKE
+    CONTROL         "Rotate",IDC_ROTATE_RESTORE,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT,39,16,34,12
+END
+
+IDD_EYE DIALOGEX 0, 0, 284, 29
+STYLE WS_POPUP
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EYE_FROMX,46,1,31,12,ES_AUTOHSCROLL,
+                    WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EYE_FROMY,78,1,31,12,ES_AUTOHSCROLL,
+                    WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EYE_FROMZ,111,1,31,12,ES_AUTOHSCROLL,
+                    WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EYE_TOX,46,15,31,12,ES_AUTOHSCROLL,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EYE_TOY,78,15,31,12,ES_AUTOHSCROLL,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EYE_TOZ,111,15,31,12,ES_AUTOHSCROLL,
+                    WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EYE_FOV,180,1,25,12,ES_AUTOHSCROLL,WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EYE_CLIPFRONT,247,1,31,12,ES_AUTOHSCROLL,
+                    WS_EX_TRANSPARENT
+    EDITTEXT        IDC_EYE_CLIPREAR,247,15,31,12,ES_AUTOHSCROLL,
+                    WS_EX_TRANSPARENT
+    CONTROL         "From",IDC_EYE_RESTORE_FROM,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT,24,1,20,12,WS_EX_TRANSPARENT
+    CONTROL         "To",IDC_EYE_RESTORE_TO,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT,24,15,20,12,WS_EX_TRANSPARENT
+    CONTROL         "FOV",IDC_EYE_RESTORE_FOV,"Button",BS_AUTORADIOBUTTON | 
+                    BS_PUSHLIKE | BS_FLAT,158,1,20,12,WS_EX_TRANSPARENT
+    CONTROL         "Slider1",IDC_EYE_SLIDER_FOV,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,148,15,59,12,
+                    WS_EX_TRANSPARENT | WS_EX_STATICEDGE
+    CONTROL         "Clip Front",IDC_EYE_CLIPFRONT_RESTORE,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_FLAT,211,1,34,12,
+                    WS_EX_TRANSPARENT
+    CONTROL         "Clip Rear",IDC_EYE_CLIPREAR_RESTORE,"Button",
+                    BS_AUTORADIOBUTTON | BS_PUSHLIKE | BS_FLAT,211,15,34,12,
+                    WS_EX_TRANSPARENT
+    CONTROL         188,IDC_EYE_BACKGROUND,"Static",SS_BITMAP,0,0,167,28
+END
+
+IDD_DIALOG2 DIALOG DISCARDABLE  0, 0, 186, 37
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Slider1",IDC_SLIDER1,"msctls_trackbar32",TBS_BOTH | 
+                    TBS_NOTICKS | WS_TABSTOP,53,7,126,15
+    PUSHBUTTON      "Button1",IDC_BUTTON1,7,7,36,18
+END
+
+IDD_PREFS_OUTPUT DIALOG DISCARDABLE  0, 0, 256, 185
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Output"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "320 X 240",IDC_OUTPUT_320X240,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,15,22,104,10
+    CONTROL         "640 X 480 (VHS)",IDC_OUTPUT_640X480,"Button",
+                    BS_AUTORADIOBUTTON,15,34,104,10
+    CONTROL         "720 X 540 (D1)",IDC_OUTPUT_720X540,"Button",
+                    BS_AUTORADIOBUTTON,15,46,104,10
+    CONTROL         "Variable",IDC_OUTPUT_VARIABLE,"Button",
+                    BS_AUTORADIOBUTTON,13,113,104,10
+    CONTROL         "Full Screen",IDC_OUTPUT_FULL_SCREEN,"Button",
+                    BS_AUTORADIOBUTTON,13,126,104,10
+    CONTROL         "RGB",IDC_OUTPUT_RGB,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,139,22,82,10
+    CONTROL         "TIFF",IDC_OUTPUT_TIFF,"Button",BS_AUTORADIOBUTTON,139,
+                    35,82,10
+    CONTROL         "Same as Window Size",IDC_OUTPUT_ASPECT_RATIO,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,139,113,91,10
+    CONTROL         "4:3 (VHS)",IDC_OUTPUT_ASPECT_4_3,"Button",
+                    BS_AUTORADIOBUTTON,140,125,91,10
+    CONTROL         "3:2 (Film)",IDC_OUTPUT_ASPECT_4_4,"Button",
+                    BS_AUTORADIOBUTTON,140,136,91,10
+    CONTROL         "16:9 (HDTV)",IDC_OUTPUT_ASPECT_4_5,"Button",
+                    BS_AUTORADIOBUTTON,139,148,91,10
+    GROUPBOX        "Window Size",IDC_STATIC,7,7,116,171
+    GROUPBOX        "Format",IDC_STATIC,133,7,116,74
+    GROUPBOX        "Aspect Ratio",IDC_STATIC,133,98,116,80
+END
+
+IDD_PART_MOTION DIALOG DISCARDABLE  0, 0, 319, 186
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Part Motion List"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,262,165,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,262,150,50,14
+    LISTBOX         IDC_PART_MOTION_LIST,7,7,253,172,LBS_SORT | 
+                    LBS_MULTIPLESEL | LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    PUSHBUTTON      "Remove",IDC_PART_REMOVE,262,94,50,14
+    PUSHBUTTON      "Clear All",IDC_PART_CLEAR_ALL,262,110,50,14
+END
+
+IDD_LIGHT_PART DIALOG DISCARDABLE  0, 0, 252, 253
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Light & Part Characteristics"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,167,232,48,14
+    PUSHBUTTON      "Cancel",IDCANCEL,118,232,48,14
+    EDITTEXT        IDC_TRANSLATE_X9,29,127,29,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRANSLATE_Y9,29,139,29,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRANSLATE_Z9,29,151,29,13,ES_AUTOHSCROLL
+    LTEXT           "X",IDC_STATIC,17,130,9,9
+    LTEXT           "Y",IDC_STATIC,17,142,9,9
+    LTEXT           "Z",IDC_STATIC,17,154,9,9
+    GROUPBOX        "Offset",IDC_STATIC,7,106,102,82
+    LTEXT           "Translate",IDC_STATIC,29,116,30,9
+    EDITTEXT        IDC_ROTATE_X9,69,127,29,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ROTATE_Y9,69,139,29,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ROTATE_Z9,69,151,29,13,ES_AUTOHSCROLL
+    LTEXT           "Rotate",IDC_STATIC,69,116,30,9
+    COMBOBOX        IDC_TXYZ9,56,169,42,94,CBS_DROPDOWNLIST | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Visible",IDC_DEVICE_VISIBLE9,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,39,39,37,10
+    GROUPBOX        "Material",IDC_STATIC,118,106,126,82
+    EDITTEXT        IDC_PART_RED9,126,116,24,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PART_GREEN9,126,128,24,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PART_BLUE9,126,140,24,13,ES_AUTOHSCROLL
+    CONTROL         "Slider1",IDC_PART_SLIDER_RED9,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,151,119,62,11
+    CONTROL         "Slider1",IDC_PART_SLIDER_GREEN9,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,151,131,62,11
+    CONTROL         "Slider1",IDC_PART_SLIDER_BLUE9,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,151,143,62,11
+    EDITTEXT        IDC_PART_ALPHA9,126,152,24,13,ES_AUTOHSCROLL
+    CONTROL         "Slider1",IDC_PART_SLIDER_ALPHA9,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,151,155,62,11
+    LTEXT           "red",IDC_STATIC,213,119,20,9
+    LTEXT           "green",IDC_STATIC,213,131,20,9
+    LTEXT           "blue",IDC_STATIC,213,143,20,9
+    LTEXT           "alpha",IDC_STATIC,213,155,20,9
+    PUSHBUTTON      "Shader...",IDC_PART_TEXTURE9,118,209,48,14
+    EDITTEXT        IDC_TEXTURE_NAME9,168,210,76,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PART_NAME9,38,87,71,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "Part:",IDC_LIST_PARTS9,7,87,28,14,BS_FLAT
+    PUSHBUTTON      "Light:",IDC_LIST_DEVICES9,7,7,28,14,BS_FLAT
+    PUSHBUTTON      "Parent:",IDC_LIST_PARENTS9,7,22,28,14,BS_FLAT
+    EDITTEXT        IDC_DEVICE_NAME9,38,7,71,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PARENT_NAME9,38,22,71,14,ES_AUTOHSCROLL
+    COMBOBOX        IDC_PART_MATERIAL9,169,169,63,48,CBS_DROPDOWNLIST | 
+                    CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_PART_SHININESS9,126,191,24,13,ES_AUTOHSCROLL
+    CONTROL         "Slider1",IDC_PART_SLIDER_SHININESS9,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,151,193,62,11
+    LTEXT           "shininess",IDC_STATIC,213,193,33,8
+    COMBOBOX        IDC_PART_RENDER_MODE9,17,210,82,48,CBS_DROPDOWNLIST | 
+                    WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Render Mode:",IDC_STATIC,17,199,57,8
+    GROUPBOX        "Light Characteristics",IDC_STATIC,118,7,126,94
+    CONTROL         "Enabled",IDC_LIGHT_ENABLED9,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,39,50,41,10
+    EDITTEXT        IDC_LIGHT_INTENSITY9,126,22,24,13,ES_AUTOHSCROLL
+    CONTROL         "Slider1",IDC_LIGHT_SLIDER_INTENSITY9,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,150,24,62,11
+    LTEXT           "intensity",IDC_STATIC,213,24,26,9
+    CONTROL         "Point Source",IDC_LIGHT_POINT_SOURCE9,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,39,61,59,10
+    EDITTEXT        IDC_LIGHT_ATTENUATION9,125,50,24,13,ES_AUTOHSCROLL
+    CONTROL         "Slider1",IDC_LIGHT_SLIDER_ATTENUATION9,
+                    "msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,
+                    150,51,62,11
+    EDITTEXT        IDC_LIGHT_SPOTLIGHT_ANGLE9,125,77,24,13,ES_AUTOHSCROLL
+    CONTROL         "Slider1",IDC_LIGHT_SLIDER_SPOTLIGHT_ANGLE9,
+                    "msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,
+                    150,79,62,11
+    LTEXT           "Attenuation:",IDC_STATIC,126,40,39,8
+    PUSHBUTTON      "constant",IDC_LIST_ATTENUATION9,167,36,33,14,BS_FLAT
+    LTEXT           "Spotlight angle:",IDC_STATIC,125,67,57,8
+END
+
+IDD_LIGHT_DLG DIALOG DISCARDABLE  0, 0, 163, 134
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "LIGHT"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_LIGHT_INTENSITY,16,22,23,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LIGHT_ATTENUATION,15,49,23,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_LIGHT_SPOTLIGHT_ANGLE,16,76,23,12,ES_AUTOHSCROLL
+    CONTROL         "Enabled",IDC_LIGHT_ENABLED,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,17,102,70,8
+    CONTROL         "Point Source",IDC_LIGHT_POINT_SOURCE,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,17,115,70,8
+    PUSHBUTTON      "",IDC_RESTORE_LIGHT_INTENSITY,109,22,12,11,BS_FLAT
+    PUSHBUTTON      "",IDC_RESTORE_LIGHT_ATTENUATION,109,49,12,11,BS_FLAT
+    PUSHBUTTON      "",IDC_RESTORE_LIGHT_SPOTLIGHT_ANGLE,109,76,12,11,
+                    BS_FLAT
+    CONTROL         "Slider1",IDC_LIGHT_SLIDER_INTENSITY,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,40,23,63,11
+    CONTROL         "Slider1",IDC_LIGHT_SLIDER_ATTENUATION,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,40,50,63,11
+    CONTROL         "Slider1",IDC_LIGHT_SLIDER_SPOTLIGHT_ANGLE,
+                    "msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,
+                    40,77,63,11
+    PUSHBUTTON      "Constant",IDC_LIGHT_ATTENUATION_LIST,56,37,37,11,
+                    BS_FLAT
+    GROUPBOX        "",IDC_STATIC,7,3,132,90
+    LTEXT           "Intensity",IDC_STATIC,16,12,28,8
+    LTEXT           "Attenuation",IDC_STATIC,15,39,37,8
+    LTEXT           "Spotlight Angle",IDC_STATIC,16,66,48,8
+    LTEXT           "Restore",IDC_STATIC,103,13,28,8
+    DEFPUSHBUTTON   "OK",IDOK,144,117,12,10,NOT WS_VISIBLE
+END
+
+IDD_INHERIT DIALOG DISCARDABLE  0, 0, 102, 63
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Inherit Material"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Parent",IDC_INHERIT_PARENT,25,17,35,14
+    DEFPUSHBUTTON   "OK",IDOK,61,44,36,14
+    PUSHBUTTON      "Cancel",IDCANCEL,26,44,35,14
+    GROUPBOX        "Choose part",IDC_STATIC,5,3,59,32
+END
+
+IDD_ANALYSIS DIALOG DISCARDABLE  0, 0, 176, 157
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Analysis"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Polygon",IDC_POLYGON,7,15,51,13
+    PUSHBUTTON      "Edge",IDC_EDGE,7,28,51,13
+    PUSHBUTTON      "Vertex",IDC_VERTEX,7,52,51,13
+    PUSHBUTTON      "Coordinate",IDC_COORDINATE,7,65,51,13
+    PUSHBUTTON      "Part",IDC_PART,7,88,51,13
+    PUSHBUTTON      "Device",IDC_DEVICE,7,101,51,13
+    PUSHBUTTON      "Polygon",IDC_POLYGON_CENTER,89,14,51,13
+    PUSHBUTTON      "Edge",IDC_EDGE_CENTER,89,27,51,13
+    EDITTEXT        IDC_DISTANCE,111,71,48,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_OFFSET_X,111,84,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OFFSET_Y,111,96,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_OFFSET_Z,111,108,48,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Done",IDOK,118,137,51,13
+    CONTROL         159,IDC_POLYGON_FIRST,"Static",SS_BITMAP,59,18,8,7
+    CONTROL         159,IDC_POLYGON_SECOND,"Static",SS_BITMAP,68,18,8,7
+    CONTROL         159,IDC_EDGE_FIRST,"Static",SS_BITMAP,59,30,8,7
+    CONTROL         159,IDC_EDGE_SECOND,"Static",SS_BITMAP,68,30,8,7
+    CONTROL         159,IDC_VERTEX_FIRST,"Static",SS_BITMAP,59,56,8,7
+    CONTROL         159,IDC_VERTEX_SECOND,"Static",SS_BITMAP,68,56,8,7
+    CONTROL         159,IDC_COORDINATE_FIRST,"Static",SS_BITMAP,59,69,8,7
+    CONTROL         159,IDC_COORDINATE_SECOND,"Static",SS_BITMAP,68,69,8,7
+    CONTROL         159,IDC_PART_FIRST,"Static",SS_BITMAP,59,91,8,7
+    CONTROL         159,IDC_PART_SECOND,"Static",SS_BITMAP,68,91,8,7
+    CONTROL         159,IDC_DEVICE_FIRST,"Static",SS_BITMAP,59,104,8,7
+    CONTROL         159,IDC_DEVICE_SECOND,"Static",SS_BITMAP,68,104,8,7
+    CONTROL         159,IDC_POLYGON_CENTERED_FIRST,"Static",SS_BITMAP,141,17,
+                    8,7
+    CONTROL         159,IDC_POLYGON_CENTERED_SECOND,"Static",SS_BITMAP,150,
+                    17,8,7
+    CONTROL         159,IDC_EDGE_CENTERED_FIRST,"Static",SS_BITMAP,141,30,8,
+                    7
+    CONTROL         159,IDC_EDGE_CENTERED_SECOND,"Static",SS_BITMAP,150,30,8,
+                    7
+    PUSHBUTTON      "X",IDC_RESET_X,97,85,12,11,BS_CENTER | BS_VCENTER | 
+                    BS_FLAT
+    PUSHBUTTON      "Y",IDC_RESET_Y,97,97,12,11,BS_CENTER | BS_VCENTER | 
+                    BS_FLAT
+    PUSHBUTTON      "Z",IDC_RESET_Z,97,109,12,11,BS_CENTER | BS_VCENTER | 
+                    BS_FLAT
+    GROUPBOX        "Centered",IDC_STATIC,84,3,85,41
+    GROUPBOX        "Distance",IDC_STATIC,84,61,85,65
+    CONTROL         160,IDC_FIRST,"Static",SS_BITMAP | NOT WS_VISIBLE,119,48,
+                    8,7
+    CONTROL         160,IDC_SECOND,"Static",SS_BITMAP | NOT WS_VISIBLE,149,
+                    48,8,7
+END
+
+IDD_ROBOT6_SETUP DIALOG DISCARDABLE  0, 0, 186, 263
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Robot  (6 Degrees of Freedom)"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "Joints",IDC_STATIC,3,45,180,122
+    LTEXT           "1",IDC_STATIC,8,77,8,8
+    LTEXT           "type",IDC_STATIC,19,65,13,9
+    LTEXT           "min",IDC_STATIC,43,65,13,9
+    LTEXT           "max",IDC_STATIC,66,65,13,9
+    CTEXT           "max\naccel",IDC_STATIC,91,57,24,16
+    LTEXT           "2",IDC_STATIC,8,92,8,8
+    LTEXT           "3",IDC_STATIC,8,106,8,8
+    LTEXT           "4",IDC_STATIC,8,120,8,8
+    LTEXT           "5",IDC_STATIC,8,134,8,8
+    LTEXT           "6",IDC_STATIC,8,148,8,8
+    PUSHBUTTON      "Rz",IDC_J1_TYPE,18,75,15,14,BS_CENTER | BS_VCENTER | 
+                    BS_FLAT
+    EDITTEXT        IDC_J1_MIN,36,76,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_J1_MAX,61,76,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_J1_MAX_ACCEL,92,76,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_J1_MAX_SPEED,117,76,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_J1_MIN_ACCEL_TIME,148,76,25,12,ES_AUTOHSCROLL
+    CTEXT           "max\nspeed",IDC_STATIC,117,57,24,16
+    CTEXT           "min accel\ntime",IDC_STATIC,143,57,32,16
+    PUSHBUTTON      "Rz",IDC_J2_TYPE,18,89,15,14,BS_CENTER | BS_VCENTER | 
+                    BS_FLAT
+    EDITTEXT        IDC_J2_MIN,36,90,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_J2_MAX,61,90,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_J2_MAX_ACCEL,92,90,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_J2_MAX_SPEED,117,90,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_J2_MIN_ACCEL_TIME,148,90,25,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Rz",IDC_J3_TYPE,18,103,15,14,BS_CENTER | BS_VCENTER | 
+                    BS_FLAT
+    EDITTEXT        IDC_J3_MIN,36,104,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_J3_MAX,61,104,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_J3_MAX_ACCEL,92,104,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_J3_MAX_SPEED,117,104,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_J3_MIN_ACCEL_TIME,148,104,25,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Rz",IDC_J4_TYPE,18,117,15,14,BS_CENTER | BS_VCENTER | 
+                    BS_FLAT
+    EDITTEXT        IDC_J4_MIN,36,118,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_J4_MAX,61,118,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_J4_MAX_ACCEL,92,118,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_J4_MAX_SPEED,117,118,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_J4_MIN_ACCEL_TIME,148,118,25,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Rz",IDC_J5_TYPE,18,131,15,14,BS_CENTER | BS_VCENTER | 
+                    BS_FLAT
+    EDITTEXT        IDC_J5_MIN,36,132,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_J5_MAX,61,132,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_J5_MAX_ACCEL,92,132,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_J5_MAX_SPEED,117,132,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_J5_MIN_ACCEL_TIME,148,132,25,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Rz",IDC_J6_TYPE,18,145,15,14,BS_CENTER | BS_VCENTER | 
+                    BS_FLAT
+    EDITTEXT        IDC_J6_MIN,36,146,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_J6_MAX,61,146,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_J6_MAX_ACCEL,92,146,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_J6_MAX_SPEED,117,146,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_J6_MIN_ACCEL_TIME,148,146,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MAX_SCREW_SPEED,96,13,25,12,ES_AUTOHSCROLL
+    RTEXT           "Angular - Max Screw",IDC_STATIC,3,15,87,9
+    RTEXT           "TCP - Max Tool",IDC_STATIC,3,27,87,9
+    EDITTEXT        IDC_MAX_TOOL_SPEED,96,26,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MAX_SCREW_ACCEL,127,13,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MAX_TOOL_ACCEL,127,26,25,12,ES_AUTOHSCROLL
+    CTEXT           "accel",IDC_STATIC,129,2,22,9
+    CTEXT           "speed",IDC_STATIC,97,2,22,9
+    LTEXT           "TCP offset:",IDC_STATIC,24,185,35,9
+    EDITTEXT        IDC_TCF_X,80,183,25,12,ES_AUTOHSCROLL
+    LTEXT           "Translate",IDC_STATIC,77,173,35,9
+    EDITTEXT        IDC_TCF_RX,119,183,25,12,ES_AUTOHSCROLL
+    LTEXT           "Rotate",IDC_STATIC,121,173,24,9
+    EDITTEXT        IDC_TCF_Y,80,196,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TCF_RY,119,196,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TCF_Z,80,209,25,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TCF_RZ,119,209,25,12,ES_AUTOHSCROLL
+    LTEXT           "X",IDC_STATIC,69,185,8,8
+    LTEXT           "Y",IDC_STATIC,69,198,8,8
+    LTEXT           "Z",IDC_STATIC,69,212,8,8
+    DEFPUSHBUTTON   "OK",IDOK,148,245,35,13
+    PUSHBUTTON      "Cancel",IDCANCEL,113,245,35,13
+END
+
+IDD_TAG DIALOG DISCARDABLE  0, 0, 138, 222
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Tag"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_TAG_TRANSLATE_X,19,72,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TAG_TRANSLATE_Y,19,85,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TAG_TRANSLATE_Z,19,98,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TAG_ROTATE_X,63,72,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TAG_ROTATE_Y,63,85,30,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TAG_ROTATE_Z,63,98,30,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "",IDC_TAG_90_X,94,72,9,8,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "",IDC_TAG_90_Y,94,85,9,8,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "",IDC_TAG_90_Z,94,98,9,8,BS_FLAT | NOT WS_TABSTOP
+    PUSHBUTTON      "Translate",IDC_TAG_TRANSLATE,19,58,36,12,BS_FLAT
+    PUSHBUTTON      "Rotate",IDC_TAG_ROTATE,63,58,36,12,BS_FLAT
+    COMBOBOX        IDC_TAG_SNAP,39,114,89,79,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_PATH_RED,11,168,22,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PATH_GREEN,11,181,22,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_PATH_BLUE,11,194,22,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Red",IDC_PATH_RED_RESTORE,96,168,25,12,BS_FLAT
+    PUSHBUTTON      "Green",IDC_PATH_GREEN_RESTORE,96,181,25,12,BS_FLAT
+    PUSHBUTTON      "Blue",IDC_PATH_BLUE_RESTORE,96,194,25,12,BS_FLAT
+    CONTROL         "Slider1",IDC_PATH_SLIDER_RED,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,34,169,60,11
+    CONTROL         "Slider1",IDC_PATH_SLIDER_GREEN,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,34,182,60,11
+    CONTROL         "Slider1",IDC_PATH_SLIDER_BLUE,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,34,195,60,11
+    CONTROL         "Path Visible",IDC_PATH_VISIBLE,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,49,32,51,8
+    DEFPUSHBUTTON   "OK",IDOK,91,136,45,14
+    PUSHBUTTON      "Cancel",IDCANCEL,46,136,45,14
+    LTEXT           "Attached to:",IDC_STATIC,2,4,40,8
+    EDITTEXT        IDC_PATH_DEVICE,50,3,85,12,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_PATH_PART,50,16,85,12,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "Tag Offset",IDC_STATIC,2,47,134,84
+    CTEXT           "X",IDC_STATIC,10,74,8,8
+    CTEXT           "Y",IDC_STATIC,10,86,8,8
+    CTEXT           "Z",IDC_STATIC,10,99,8,8
+    LTEXT           "Snap to:",IDC_STATIC,8,116,28,8
+    GROUPBOX        "Path Color",IDC_STATIC,2,156,125,57
+END
+
+IDD_ROBOT6_DIALOG DIALOG DISCARDABLE  0, 0, 163, 170
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Robot"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_JOINT1,21,16,33,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_JOINT2,21,29,33,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_JOINT3,21,42,33,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_JOINT4,97,16,33,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_JOINT5,97,29,33,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_JOINT6,97,42,33,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "+",IDC_INCREASE_JOINT1,56,17,10,9
+    PUSHBUTTON      "--",IDC_DECREASE_JOINT1,66,17,10,9
+    PUSHBUTTON      "+",IDC_INCREASE_JOINT2,56,29,10,9
+    PUSHBUTTON      "--",IDC_DECREASE_JOINT2,66,29,10,9
+    PUSHBUTTON      "+",IDC_INCREASE_JOINT3,56,42,10,9
+    PUSHBUTTON      "--",IDC_DECREASE_JOINT3,66,42,10,9
+    PUSHBUTTON      "+",IDC_INCREASE_JOINT4,132,16,10,9
+    PUSHBUTTON      "--",IDC_DECREASE_JOINT4,142,16,10,9
+    PUSHBUTTON      "+",IDC_INCREASE_JOINT5,132,29,10,9
+    PUSHBUTTON      "--",IDC_DECREASE_JOINT5,142,29,10,9
+    PUSHBUTTON      "+",IDC_INCREASE_JOINT6,132,42,10,9
+    PUSHBUTTON      "--",IDC_DECREASE_JOINT6,142,42,10,9
+    EDITTEXT        IDC_SPEED,48,74,33,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MIN_ACCEL_TIME,48,87,33,12,ES_AUTOHSCROLL
+    CONTROL         "Joint",IDC_INTERPOLATION_JOINT,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,104,82,33,9
+    CONTROL         "Linear",IDC_INTERPOLATION_LINEAR,"Button",
+                    BS_AUTORADIOBUTTON,104,93,33,9
+    CONTROL         "Lefty",IDC_LEFTY,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    8,136,33,9
+    CONTROL         "Righty",IDC_RIGHTY,"Button",BS_AUTORADIOBUTTON,8,148,33,
+                    9
+    CONTROL         "Elbow Up",IDC_ELBOW_UP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,46,136,53,9
+    CONTROL         "Elbow Down",IDC_ELBOW_DOWN,"Button",BS_AUTORADIOBUTTON,
+                    46,148,53,9
+    CONTROL         "Wrist Flipped",IDC_WRIST_FLIPPED,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,102,136,53,9
+    PUSHBUTTON      "Home",IDC_HOME,43,103,38,13
+    PUSHBUTTON      "E-Stop",IDC_ESTOP,5,103,38,13
+    GROUPBOX        "Joints",IDC_STATIC,3,3,157,62
+    CTEXT           "1",IDC_STATIC,11,18,10,9
+    CTEXT           "2",IDC_STATIC,11,31,10,9
+    CTEXT           "3",IDC_STATIC,11,44,10,9
+    CTEXT           "4",IDC_STATIC,87,18,10,9
+    CTEXT           "5",IDC_STATIC,87,31,10,9
+    CTEXT           "6",IDC_STATIC,87,44,10,9
+    CTEXT           "Speed",IDC_STATIC,22,75,24,9
+    GROUPBOX        "Interpolation",IDC_STATIC,92,71,68,37
+    CTEXT           "Accel. time",IDC_STATIC,8,88,38,9
+    GROUPBOX        "Orientation",IDC_STATIC,3,125,157,38
+    DEFPUSHBUTTON   "OK",IDOK,137,112,23,12,NOT WS_VISIBLE
+END
+
+IDD_ROTARY_TABLE_DLG DIALOG DISCARDABLE  0, 0, 163, 87
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Rotary Table"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_ROTARY_TABLE_END_POSITION,7,7,41,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Go",IDC_ROTARY_TABLE_GO,120,7,36,13
+    PUSHBUTTON      "Home",IDC_ROTARY_TABLE_HOME,120,20,36,13
+    EDITTEXT        IDC_ROTARY_TABLE_VELOCITY,7,35,41,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_ROTARY_TABLE_ACCEL,7,50,41,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "+",IDC_ROTARY_TABLE_DIRECTION,35,64,13,12
+    LTEXT           "End Position",IDC_STATIC,53,9,42,10
+    EDITTEXT        IDC_ROTARY_TABLE_CURRENT_POSITION,7,21,41,13,
+                    ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Current Position",IDC_STATIC,53,23,51,10
+    LTEXT           "Velocity",IDC_STATIC,53,37,27,10
+    LTEXT           "Acceleration",IDC_STATIC,53,51,43,10
+    LTEXT           "Direction",IDC_STATIC,53,65,43,10
+    EDITTEXT        IDC_ROTARY_TABLE_TIME_OF_MOVE,115,62,41,13,
+                    ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Time:",IDC_STATIC,116,51,27,8
+    DEFPUSHBUTTON   "OK",IDOK,139,36,17,13,NOT WS_VISIBLE
+END
+
+IDD_GRIPPER_DLG DIALOG DISCARDABLE  0, 0, 163, 73
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Gripper"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_GRIPPER_DISPLACEMENT_OPEN,34,36,38,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_GRIPPER_DISPLACEMENT_CLOSE,34,49,38,13,
+                    ES_AUTOHSCROLL
+    CONTROL         "Translating",IDC_GRIPPER_TYPE_TRANSLATING,"Button",
+                    BS_AUTORADIOBUTTON,99,38,51,11
+    CONTROL         "Rotating",IDC_GRIPPER_TYPE_ROTATING,"Button",
+                    BS_AUTORADIOBUTTON,99,49,51,11
+    PUSHBUTTON      "Open",IDC_GRIPPER_OPEN,86,5,35,13
+    PUSHBUTTON      "Close",IDC_GRIPPER_CLOSE,121,5,35,13
+    CTEXT           "Open",IDC_STATIC,12,39,21,10
+    RTEXT           "Close",IDC_STATIC,9,51,22,10
+    GROUPBOX        "Displacement",IDC_STATIC,7,25,71,41
+    GROUPBOX        "Type",IDC_STATIC,85,25,71,41
+    DEFPUSHBUTTON   "OK",IDOK,7,5,16,12,NOT WS_VISIBLE
+END
+
+IDD_EYE_VIEW_DLG DIALOG DISCARDABLE  0, 0, 136, 215
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Eye View Info"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EYE_VIEW_NAME,7,7,122,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "New",IDC_EYE_VIEW_NEW,7,24,34,13
+    PUSHBUTTON      "Rename",IDC_EYE_VIEW_RENAME,7,37,34,13
+    PUSHBUTTON      "Set",IDC_EYE_VIEW_SET,42,24,34,13
+    PUSHBUTTON      "Delete",IDC_EYE_VIEW_DELETE,42,37,34,13
+    LISTBOX         IDC_EYE_VIEW_LIST,7,68,122,140,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Go To",IDC_EYE_VIEW_GO_TO,95,49,34,13
+    DEFPUSHBUTTON   "Done",IDOK,95,24,34,13
+    PUSHBUTTON      "Cancel",IDCANCEL,7,194,50,14,NOT WS_VISIBLE
+END
+
+IDD_TRACK DIALOG DISCARDABLE  0, 0, 164, 333
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Track"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_TRACK_TRANSLATE_X,22,79,43,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRACK_TRANSLATE_Y,22,92,43,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRACK_TRANSLATE_Z,22,105,43,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRACK_ROTATE_X,86,79,43,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRACK_ROTATE_Y,86,92,43,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRACK_ROTATE_Z,86,105,43,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "",IDC_TRACK_INCREASE_X,66,79,9,6,BS_FLAT
+    PUSHBUTTON      "",IDC_TRACK_DECREASE_X,66,85,9,6,BS_FLAT
+    PUSHBUTTON      "",IDC_TRACK_INCREASE_Y,66,92,9,6,BS_FLAT
+    PUSHBUTTON      "",IDC_TRACK_DECREASE_Y,66,99,9,6,BS_FLAT
+    PUSHBUTTON      "",IDC_TRACK_INCREASE_Z,66,106,9,6,BS_FLAT
+    PUSHBUTTON      "",IDC_TRACK_DECREASE_Z,66,112,9,6,BS_FLAT
+    PUSHBUTTON      "",IDC_TRACK_INCREASE_X90,130,79,9,6,BS_FLAT
+    PUSHBUTTON      "",IDC_TRACK_INCREASE_Y90,130,92,9,6,BS_FLAT
+    PUSHBUTTON      "",IDC_TRACK_INCREASE_Z90,130,105,9,6,BS_FLAT
+    PUSHBUTTON      "Translate",IDC_TRACK_TRANSLATE,23,66,35,11,BS_FLAT
+    PUSHBUTTON      "Rotate",IDC_TRACK_ROTATE,87,66,35,11,BS_FLAT
+    COMBOBOX        IDC_SNAP_TO_LIST,52,123,88,12,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Snap To",IDC_TRACK_SNAP_TO,13,123,35,12
+    EDITTEXT        IDC_TRACK_RED,14,164,21,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRACK_GREEN,14,178,21,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRACK_BLUE,14,191,21,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Red",IDC_TRACK_RED_RESTORE,115,165,25,11,BS_FLAT
+    PUSHBUTTON      "Green",IDC_TRACK_GREEN_RESTORE,115,178,25,11,BS_FLAT
+    PUSHBUTTON      "Blue",IDC_TRACK_BLUE_RESTORE,115,191,25,11,BS_FLAT
+    CONTROL         "Slider1",IDC_TRACK_SLIDER_RED,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,38,166,74,11
+    CONTROL         "Slider1",IDC_TRACK_SLIDER_GREEN,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,38,179,74,11
+    CONTROL         "Slider1",IDC_TRACK_SLIDER_BLUE,"msctls_trackbar32",
+                    TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,38,192,74,11
+    CONTROL         "",IDC_TRACK_SWITCH_CLOSED,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,131,263,10,10
+    CONTROL         "",IDC_TRACK_SWITCH_OPENED,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,131,276,10,10
+    CONTROL         "Visible:",IDC_TRACK_VISIBLE,"Button",BS_AUTOCHECKBOX | 
+                    BS_LEFTTEXT | WS_TABSTOP,7,17,37,11
+    DEFPUSHBUTTON   "OK",IDOK,107,33,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,57,33,50,14
+    LTEXT           "Track's Parent:",IDC_STATIC,7,5,51,10
+    EDITTEXT        IDC_TRACK_PARENT,59,3,98,13,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "Offset:",IDC_STATIC,7,56,150,88
+    LTEXT           "X",IDC_STATIC,14,81,8,8
+    LTEXT           "Y",IDC_STATIC,14,93,8,8
+    LTEXT           "Z",IDC_STATIC,14,106,8,8
+    GROUPBOX        "Color:",IDC_STATIC,7,152,138,58
+    GROUPBOX        "Track:",IDC_STATIC_NUMBER,7,221,150,95
+    LTEXT           "Type:",IDC_STATIC,18,232,18,9
+    EDITTEXT        IDC_TRACK_TYPE,39,230,53,13,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Start:",IDC_STATIC,20,251,18,9
+    EDITTEXT        IDC_TRACK_START_X,39,249,43,13,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_TRACK_START_Y,85,249,43,13,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "End:",IDC_STATIC,22,265,18,9
+    EDITTEXT        IDC_TRACK_END_X,39,263,43,13,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_TRACK_END_Y,85,263,43,13,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Switch:",IDC_STATIC_SWITCH,14,279,24,9
+    EDITTEXT        IDC_TRACK_SWITCH_X,39,277,43,13,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_TRACK_SWITCH_Y,85,277,43,13,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Radius:",IDC_STATIC_RADIUS,14,293,24,9
+    EDITTEXT        IDC_TRACK_RADIUS,39,291,25,13,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    LTEXT           "Heading:",IDC_STATIC_HEADING,85,293,28,9
+    EDITTEXT        IDC_TRACK_HEADING,116,291,25,13,ES_AUTOHSCROLL | 
+                    ES_READONLY
+    RTEXT           "1",IDC_STATIC_TRACK,126,231,24,9
+END
+
+IDD_TRAIN_DLG DIALOG DISCARDABLE  0, 0, 163, 87
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Train"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_TRAIN_VELOCITY,50,44,50,12,ES_RIGHT | ES_AUTOHSCROLL
+    EDITTEXT        IDC_TRAIN_ACCELERATION,50,60,50,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL
+    CONTROL         "",IDC_TRAIN_GO,"Button",BS_AUTOCHECKBOX | BS_PUSHLIKE | 
+                    WS_TABSTOP,135,59,13,12
+    EDITTEXT        IDC_TRAIN_POSITION_X,50,16,50,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_TRAIN_POSITION_Y,101,16,50,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_TRAIN_TRACK,50,30,50,12,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_TRAIN_RELATIVE_POSITION,101,30,50,12,ES_RIGHT | 
+                    ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Position:",IDC_STATIC,7,18,30,10
+    LTEXT           "Track:",IDC_STATIC,7,32,30,10
+    LTEXT           "Velocity:",IDC_STATIC,7,47,30,10
+    LTEXT           "Acceleration:",IDC_STATIC,7,62,41,10
+    LTEXT           "X",IDC_STATIC,71,7,8,8
+    LTEXT           "Y",IDC_STATIC,123,7,8,8
+    LTEXT           "Go",IDC_STATIC,122,61,11,8
+    DEFPUSHBUTTON   "OK",IDOK,103,67,14,13,NOT WS_VISIBLE
+END
+
+IDD_CONVEYOR_DLG DIALOG DISCARDABLE  0, 0, 163, 206
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Conveyor"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_CONVEYOR_SEGMENT_LIST,7,27,85,34,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "--",IDC_CONVEYOR_REVERSE,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_GROUP | WS_TABSTOP,97,49,15,12
+    CONTROL         "o",IDC_CONVEYOR_PAUSE,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,113,49,15,12
+    CONTROL         "+",IDC_CONVEYOR_FORWARD,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_TABSTOP,129,49,15,12
+    EDITTEXT        IDC_CONVEYOR_MAX_SPEED,7,71,46,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CONVEYOR_REL_SPEED,58,71,46,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CONVEYOR_ACCEL,110,71,46,13,ES_AUTOHSCROLL
+    LISTBOX         IDC_CONVEYOR_STOP_GATE_LIST,7,111,85,34,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "up",IDC_CONVEYOR_STOP_GATE_UP,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_GROUP | WS_TABSTOP,97,120,33,12
+    CONTROL         "down",IDC_CONVEYOR_STOP_GATE_DOWN,"Button",
+                    BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,97,133,33,12
+    LISTBOX         IDC_CONVEYOR_TRANS_LIFT_LIST,7,164,85,34,LBS_SORT | 
+                    LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "up",IDC_CONVEYOR_TRANS_LIFT_UP,"Button",BS_AUTOCHECKBOX | 
+                    BS_PUSHLIKE | WS_GROUP | WS_TABSTOP,97,173,33,12
+    CONTROL         "down",IDC_CONVEYOR_TRANS_LIFT_DOWN,"Button",
+                    BS_AUTOCHECKBOX | BS_PUSHLIKE | WS_TABSTOP,97,186,33,12
+    PUSHBUTTON      "Stop",IDC_CONVEYOR_STOP,120,7,36,13
+    LTEXT           "Segment:",IDC_STATIC,7,17,44,10
+    LTEXT           "Max Speed",IDC_STATIC,7,84,42,10
+    LTEXT           "Rel Speed (%)",IDC_STATIC,58,84,49,10
+    LTEXT           "Acceleration",IDC_STATIC,110,84,44,10
+    LTEXT           "Stop Gate:",IDC_STATIC,7,101,44,10
+    LTEXT           "Transverse Lift:",IDC_STATIC,7,154,59,10
+    DEFPUSHBUTTON   "OK",IDOK,144,187,12,12,NOT WS_VISIBLE
+END
+
+IDD_BAR_CODE_READER_DLG DIALOG DISCARDABLE  0, 0, 163, 73
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Bar Code Reader"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Trigger",IDC_BCR_TRIGGER,"Button",BS_AUTOCHECKBOX,7,5,
+                    76,11
+    PUSHBUTTON      "Get Code",IDC_BCR_GET_CODE,36,25,35,13,NOT WS_TABSTOP
+    EDITTEXT        IDC_BCR_CODE,36,42,120,13,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,128,11,18,11,NOT WS_VISIBLE
+END
+
+IDD_BARRETTHAND DIALOG DISCARDABLE  0, 0, 163, 94
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Barretthand"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_BARRETTHAND_MIDDLE,34,16,38,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BARRETTHAND_TIP,34,29,38,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BARRETTHAND_SPREAD,112,16,38,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_BARRETTHAND_VELOCITY,112,67,38,13,ES_AUTOHSCROLL
+    PUSHBUTTON      "Open",IDC_BARRETTHAND_JOINT_OPEN,7,49,35,13
+    PUSHBUTTON      "Close",IDC_BARRETTHAND_JOINT_CLOSE,43,49,35,13
+    PUSHBUTTON      "Open",IDC_BARRETTHAND_SPREAD_OPEN,85,49,35,13
+    PUSHBUTTON      "Close",IDC_BARRETTHAND_SPREAD_CLOSE,121,49,35,13
+    CTEXT           "middle",IDC_STATIC,12,18,21,10
+    RTEXT           "tip",IDC_STATIC,9,31,22,10
+    GROUPBOX        "Joint",IDC_STATIC,7,5,71,41
+    GROUPBOX        "Spread",IDC_STATIC,85,5,71,41
+    CTEXT           "velocity",IDC_STATIC,82,69,26,10
+    DEFPUSHBUTTON   "OK",IDOK,13,75,21,12,NOT WS_VISIBLE
+END
+
+IDD_SCALE_DLG DIALOG DISCARDABLE  0, 0, 163, 73
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Scale"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Kg",IDC_SCALE_KG,"Button",BS_AUTORADIOBUTTON,99,38,51,
+                    11
+    CONTROL         "Lb",IDC_SCALE_LB,"Button",BS_AUTORADIOBUTTON,99,49,51,
+                    11
+    PUSHBUTTON      "Get Mass",IDC_SCALE_GET_MASS,86,5,40,13
+    EDITTEXT        IDC_SCALE_MASS,7,5,76,13,ES_AUTOHSCROLL | ES_READONLY
+    GROUPBOX        "Units",-1,85,25,71,41
+    PUSHBUTTON      "OK",IDOK,7,55,12,11,NOT WS_VISIBLE
+END
+
+IDD_SCRIPT_DLG DIALOG DISCARDABLE  0, 0, 225, 215
+STYLE DS_MODALFRAME | WS_POPUP | WS_CLIPSIBLINGS | WS_CLIPCHILDREN | 
+    WS_CAPTION | WS_SYSMENU
+CAPTION "Untitled"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_SCRIPT_EDIT,7,7,155,201,ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_WANTRETURN | WS_VSCROLL
+    RADIOBUTTON     "",IDC_SCRIPT_PLAY,201,82,17,15,BS_BITMAP | BS_PUSHLIKE
+    RADIOBUTTON     "",IDC_SCRIPT_PAUSE,184,82,17,15,BS_BITMAP | BS_PUSHLIKE
+    RADIOBUTTON     "",IDC_SCRIPT_REWIND,167,82,17,15,BS_BITMAP | 
+                    BS_PUSHLIKE
+    PUSHBUTTON      "New",IDC_SCRIPT_NEW,167,7,51,14
+    PUSHBUTTON      "Open...",IDC_SCRIPT_OPEN,167,21,51,14
+    PUSHBUTTON      "Save",IDC_SCRIPT_SAVE,167,47,51,14
+    PUSHBUTTON      "Save As...",IDC_SCRIPT_SAVE_AS,167,61,51,14
+    LISTBOX         IDC_SCRIPT_LIST,7,7,155,201,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    RADIOBUTTON     "Loop",IDC_SCRIPT_LOOP,176,104,32,11
+END
+
+IDD_CAMERA_DLG DIALOG DISCARDABLE  0, 0, 163, 111
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "CAMERA"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_CAMERA_FIELD_OF_VIEW,16,26,23,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAMERA_CLIP_FRONT,33,61,40,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_CAMERA_CLIP_REAR,80,61,40,12,ES_AUTOHSCROLL
+    CONTROL         "Enabled",IDC_CAMERA_ENABLED,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,16,90,70,8
+    PUSHBUTTON      "Field of View",IDC_RESTORE_CAMERA_FIELD_OF_VIEW,15,13,
+                    46,11,BS_FLAT
+    PUSHBUTTON      "Clip Front",IDC_RESTORE_CAMERA_CLIP_FRONT,33,48,40,11,
+                    BS_FLAT
+    PUSHBUTTON      "Clip Rear",IDC_RESTORE_CAMERA_CLIP_REAR,79,48,40,11,
+                    BS_FLAT
+    CONTROL         "Slider1",IDC_CAMERA_SLIDER_FIELD_OF_VIEW,
+                    "msctls_trackbar32",TBS_BOTH | TBS_NOTICKS | WS_TABSTOP,
+                    40,27,88,11
+    GROUPBOX        "",-1,7,3,132,81
+    DEFPUSHBUTTON   "OK",IDOK,131,89,18,15,NOT WS_VISIBLE
+END
+
+IDD_ROBOT6_DIALOG_CARTESIAN DIALOG DISCARDABLE  0, 0, 163, 262
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION
+CAPTION "Robot"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_JOINT1,21,16,33,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "+",IDC_INCREASE_JOINT1,56,17,10,9
+    PUSHBUTTON      "--",IDC_DECREASE_JOINT1,66,17,10,9
+    EDITTEXT        IDC_JOINT2,21,29,33,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "+",IDC_INCREASE_JOINT2,56,29,10,9
+    PUSHBUTTON      "--",IDC_DECREASE_JOINT2,66,29,10,9
+    EDITTEXT        IDC_JOINT3,21,42,33,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "+",IDC_INCREASE_JOINT3,56,42,10,9
+    PUSHBUTTON      "--",IDC_DECREASE_JOINT3,66,42,10,9
+    EDITTEXT        IDC_JOINT4,97,16,33,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "+",IDC_INCREASE_JOINT4,132,16,10,9
+    PUSHBUTTON      "--",IDC_DECREASE_JOINT4,142,16,10,9
+    EDITTEXT        IDC_JOINT5,97,29,33,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "+",IDC_INCREASE_JOINT5,132,29,10,9
+    PUSHBUTTON      "--",IDC_DECREASE_JOINT5,142,29,10,9
+    EDITTEXT        IDC_JOINT6,97,42,33,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "+",IDC_INCREASE_JOINT6,132,42,10,9
+    PUSHBUTTON      "--",IDC_DECREASE_JOINT6,142,42,10,9
+    EDITTEXT        IDC_SPEED,48,74,33,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_MIN_ACCEL_TIME,48,87,33,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Home",IDC_HOME,43,101,38,13
+    CONTROL         "Joint",IDC_INTERPOLATION_JOINT,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,104,82,33,9
+    CONTROL         "Linear",IDC_INTERPOLATION_LINEAR,"Button",
+                    BS_AUTORADIOBUTTON,104,93,33,9
+    CONTROL         "Lefty",IDC_LEFTY,"Button",BS_AUTORADIOBUTTON | WS_GROUP,
+                    8,131,33,9
+    CONTROL         "Righty",IDC_RIGHTY,"Button",BS_AUTORADIOBUTTON,8,143,33,
+                    9
+    CONTROL         "Elbow Up",IDC_ELBOW_UP,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,46,131,53,9
+    CONTROL         "Elbow Down",IDC_ELBOW_DOWN,"Button",BS_AUTORADIOBUTTON,
+                    46,143,53,9
+    CONTROL         "Wrist Flipped",IDC_WRIST_FLIPPED,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,102,131,53,9
+    EDITTEXT        IDC_X,21,182,33,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "+",IDC_INCREASE_X,56,183,10,9
+    PUSHBUTTON      "--",IDC_DECREASE_X,66,183,10,9
+    EDITTEXT        IDC_Y,21,195,33,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "+",IDC_INCREASE_Y,56,195,10,9
+    PUSHBUTTON      "--",IDC_DECREASE_Y,66,195,10,9
+    EDITTEXT        IDC_Z,21,208,33,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "+",IDC_INCREASE_Z,56,208,10,9
+    PUSHBUTTON      "--",IDC_DECREASE_Z,66,208,10,9
+    EDITTEXT        IDC_RX,97,182,33,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "+",IDC_INCREASE_RX,132,182,10,9
+    PUSHBUTTON      "--",IDC_DECREASE_RX,142,182,10,9
+    EDITTEXT        IDC_RY,97,195,33,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "+",IDC_INCREASE_RY,132,195,10,9
+    PUSHBUTTON      "--",IDC_DECREASE_RY,142,195,10,9
+    EDITTEXT        IDC_RZ,97,208,33,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "+",IDC_INCREASE_RZ,132,208,10,9
+    PUSHBUTTON      "--",IDC_DECREASE_RZ,142,208,10,9
+    PUSHBUTTON      "Setup...",IDC_SETUP,16,242,38,13
+    GROUPBOX        "Joints",IDC_STATIC,3,3,157,62
+    CTEXT           "1",IDC_STATIC,11,18,10,9
+    CTEXT           "2",IDC_STATIC,11,31,10,9
+    CTEXT           "3",IDC_STATIC,11,44,10,9
+    CTEXT           "4",IDC_STATIC,87,18,10,9
+    CTEXT           "5",IDC_STATIC,87,31,10,9
+    CTEXT           "6",IDC_STATIC,87,44,10,9
+    CTEXT           "Speed",IDC_STATIC,22,75,24,9
+    GROUPBOX        "Interpolation",IDC_STATIC,92,71,68,37
+    CTEXT           "Accel. time",IDC_STATIC,8,88,38,9
+    GROUPBOX        "Cartesian",IDC_STATIC,3,169,157,62
+    CTEXT           "X",IDC_STATIC,11,184,10,9
+    CTEXT           "Y",IDC_STATIC,11,197,10,9
+    CTEXT           "Z",IDC_STATIC,11,210,10,9
+    CTEXT           "rX",IDC_STATIC,87,184,10,9
+    CTEXT           "rY",IDC_STATIC,87,198,10,9
+    CTEXT           "rZ",IDC_STATIC,87,210,10,9
+    GROUPBOX        "Orientation",IDC_STATIC,3,120,157,38
+    PUSHBUTTON      "E-Stop",IDC_ESTOP,5,101,38,13
+END
+
+IDD_SIZE_CUSTOM DIALOG DISCARDABLE  0, 0, 149, 74
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Set View Size"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_SIZE_WIDTH,29,23,34,13,ES_AUTOHSCROLL
+    EDITTEXT        IDC_SIZE_HEIGHT,80,23,34,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,97,53,45,14
+    PUSHBUTTON      "Cancel",IDCANCEL,52,53,45,14
+    LTEXT           "Width:",IDC_STATIC,30,11,24,10
+    LTEXT           "Height:",IDC_STATIC,81,11,24,10
+    LTEXT           "X",IDC_STATIC,69,25,8,8
+END
+
+IDD_PREFS_UNITS DIALOG DISCARDABLE  0, 0, 207, 119
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Units"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Millimeters",IDC_UNITS_MILLIMETERS,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,18,22,72,11
+    CONTROL         "Inches",IDC_UNITS_INCHES,"Button",BS_AUTORADIOBUTTON,18,
+                    35,72,11
+    CONTROL         "Feet",IDC_UNITS_FEET,"Button",BS_AUTORADIOBUTTON,18,48,
+                    72,11
+    CONTROL         "Meters",IDC_UNITS_METERS,"Button",BS_AUTORADIOBUTTON,18,
+                    61,72,11
+    GROUPBOX        "Units",-1,7,7,118,77
+    PUSHBUTTON      "Defaults",IDC_UNITS_DEFAULTS,164,17,36,14
+END
+
+IDD_PREFS_NETWORK DIALOG DISCARDABLE  0, 0, 208, 119
+STYLE WS_CHILD | WS_DISABLED | WS_CAPTION
+CAPTION "Network"
+FONT 8, "MS Sans Serif"
+BEGIN
+    GROUPBOX        "TCP/IP connection",IDC_STATIC,7,7,118,44
+    EDITTEXT        IDC_NETWORK_PORT,37,20,29,13,ES_AUTOHSCROLL
+    LTEXT           "Port:",IDC_STATIC,20,22,16,10
+    PUSHBUTTON      "Defaults",IDC_NETWORK_DEFAULTS,164,17,36,14
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "STAGE MFC Application\0"
+            VALUE "FileVersion", "\0"
+            VALUE "InternalName", "STAGE\0"
+            VALUE "LegalCopyright", "Copyright © 1994-1999 Brian E. Jones\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "STAGE.EXE\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "STAGE Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 210
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_STAGE_TOP, DIALOG
+    BEGIN
+        RIGHTMARGIN, 516
+    END
+
+    IDD_STAGE_LEFT, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 344
+    END
+
+    IDD_PREFS_RENDER, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 201
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 134
+    END
+
+    IDD_PREFS_GRID, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 155
+    END
+
+    IDD_PART, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 248
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 146
+    END
+
+    IDD_DEVICE_PART, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 155
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 370
+    END
+
+    IDD_PREFS_LIGHTING, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 158
+    END
+
+    IDD_DEVICE_TREE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 270
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 186
+    END
+
+    IDD_CHOOSE_NAME, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 183
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 200
+    END
+
+    IDD_EYE_MOTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 374
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_CHOOSE_DEVICE, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 203
+    END
+
+    IDD_DEVICE_TRANSFORMATION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 168
+        TOPMARGIN, 2
+        BOTTOMMARGIN, 28
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 30
+    END
+
+    IDD_PREFS_OUTPUT, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 249
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_PART_MOTION, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 312
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 179
+    END
+
+    IDD_LIGHT_PART, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 244
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 246
+    END
+
+    IDD_LIGHT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 156
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 127
+    END
+
+    IDD_INHERIT, DIALOG
+    BEGIN
+        LEFTMARGIN, 5
+        RIGHTMARGIN, 97
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 58
+    END
+
+    IDD_ANALYSIS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 169
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 150
+    END
+
+    IDD_ROBOT6_SETUP, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 183
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 258
+    END
+
+    IDD_TAG, DIALOG
+    BEGIN
+        LEFTMARGIN, 2
+        RIGHTMARGIN, 136
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 213
+    END
+
+    IDD_ROBOT6_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 160
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 163
+    END
+
+    IDD_ROTARY_TABLE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 156
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 80
+    END
+
+    IDD_GRIPPER_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 156
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_EYE_VIEW_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 129
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 208
+    END
+
+    IDD_TRACK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 157
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 326
+    END
+
+    IDD_TRAIN_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 156
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 80
+    END
+
+    IDD_CONVEYOR_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 156
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 199
+    END
+
+    IDD_BAR_CODE_READER_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 156
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_BARRETTHAND, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 156
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 87
+    END
+
+    IDD_SCALE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 156
+        TOPMARGIN, 5
+        BOTTOMMARGIN, 66
+    END
+
+    IDD_SCRIPT_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 218
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 208
+    END
+
+    IDD_CAMERA_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 156
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 104
+    END
+
+    IDD_ROBOT6_DIALOG_CARTESIAN, DIALOG
+    BEGIN
+        LEFTMARGIN, 3
+        RIGHTMARGIN, 160
+        TOPMARGIN, 3
+        BOTTOMMARGIN, 255
+    END
+
+    IDD_SIZE_CUSTOM, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 142
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 67
+    END
+
+    IDD_PREFS_UNITS, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 112
+    END
+
+    IDD_PREFS_NETWORK, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 201
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 112
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_SELECT              CURSOR  DISCARDABLE     "res\\cursor1.cur"
+IDC_LINK                CURSOR  DISCARDABLE     "link.cur"
+IDC_UNLINK              CURSOR  DISCARDABLE     "res\\unlink.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDP_OLE_INIT_FAILED     "OLE initialization failed.  Make sure that the OLE libraries are the correct version."
+    IDP_SOCKETS_INIT_FAILED "Windows sockets initialization failed."
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    IDR_MAINFRAME           "stage\n\nStage\n\n\nStage.Document\nStage Document"
+END
+
+STRINGTABLE PRELOAD DISCARDABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "stage"
+    AFX_IDS_IDLEMESSAGE     "Ready"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+    ID_FILE_UPDATE          "Update the container to show any changes\nUpdate"
+    ID_FILE_SAVE_COPY_AS    "Save a copy of the active document with a new name\nSave Copy"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_PREFS                "Set configurations for rendering, grid, and lighting\nPrefs"
+    ID_VIEW_DEVICETREE      "Show devices in tree form\nDevice Tree"
+    ID_VIEW_CURRENT_PART    "Examine properties of the current part\nCurrent Part"
+    ID_DEVICE_CHOOSE        "Select a device from a list of devices in the workcell\nChoose"
+    ID_DEVICE_ATTACH        "Attach the current device to the device selected with the mouse\nAttach"
+    ID_DEVICE_DETACH        "Detach the current device from its parent\nDetach"
+    ID_DEVICE_CLONE         "Duplicate the current device\nClone"
+    ID_DEVICE_RENAME        "Enter a new name for the current device\nRename"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_TAG_CREATE           "Create a new tag on the current path\nCreate"
+    ID_TAG_TAG_ON_TCF       "Position the current tag on the robot TCF\nTag on TCF"
+    ID_TAG_DELETE           "Remove the current tag\nDelete Tag"
+    ID_TAG_DELETE_PATH      "Remove the current path and all of its tags\nDelete Path"
+    ID_TAG_REATTACH_PATH    "Attach the current path to the current part\nReattach Path"
+    ID_TAG_RENAME_PATH      "Enter a new name for the current path\nRename Path"
+    ID_TAG_CHOOSE           "Select a tag from a list of tags on the current path\nChoose"
+    ID_DEVICE_IMPORT        "Read a device from a file\nImport"
+    ID_VIEW_EYE_INFO        "Select, create, or delete eye views in the workcell\nEye Info"
+    ID_VIEW_CURRENT_TAG     "Examine properties of the current tag\nCurrent Tag"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_DEVICE_DELETE        "Remove the current device from the workcell\nDelete"
+    ID_SIZE_320X240         "Size the 3D graphics window to a width of 320 pixels and height of 240 pixels\n320 X 240"
+    ID_SIZE_640X480         "Size the 3D graphics window to a width of 640 pixels and height of 480 pixels (VHS format)\n640 X 480"
+    ID_DEVICE_CREATE        "Construct a new device from file along with its base part\nCreate"
+    ID_PART_CHOOSE          "Select a part from a list of parts associtated with the current device\nChoose"
+    ID_PART_UPDATE          "Replace the current part with an updated part from file\nUpdate"
+    ID_PART_ATTACH          "Attach a part from file to the current part\nAttach"
+    ID_PART_DELETE          "Delete the current part and all of its siblings\nDelete"
+    ID_PART_RENAME          "Enter a new name for the current part\nRename"
+    ID_HELP_ANALYSIS        "Invokes analysis dialog for measurements between devices, parts, vertices, etc\nAnalysis"
+    ID_TAG_NEW_PATH         "Create a new path along with an initial tag and attach it to the current part\nNew Path"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_DEVICE_EXPORT        "Write the current device to file\nExport"
+    ID_TAG_CHOOSE_PATH      "Select a path from a list of paths in the workcell\nChoose Path"
+    ID_SIZE_CUSTOM          "Size the 3D graphics window to a user defined width and height\nCustom"
+    ID_SIZE_720X480         "Size the 3D graphics window to a width of 720 pixels and height of 480 pixels (DVD format)\n720 X 480"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_WALK                "Fly mode: Pivot eye around focal point\nFly Mode"
+    IDC_PAN                 "Pan Mode: Slide eye view back and forth\nPan Mode"
+    IDC_DEVICE_TRANSLATE    "Translate Device: Move device in the X and Y plane\nTranslate Device"
+    IDC_EYE                 "Show or hide eye dialog\nEye Dialog"
+    IDC_SCRIPT              "Show or hide script dialog\nScript Dialog"
+    IDC_RECORD              "Record a simulation (.sim file) for playback\nRecord Simulation"
+    IDC_SOCKET              "Allow an external program running on any networked computer to connect to a specified port via a TCP/IP socket\nTCP/IP Socket Connect"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_EYE_RESTORE_FOV     "Restore the field of view to its original value"
+    IDC_EYE_SLIDER_FOV      "Change the field of view"
+    IDC_EYE_CLIPFRONT_RESTORE 
+                            "Revert to the original value for the front clipping plane"
+    IDC_EYE_CLIPREAR_RESTORE 
+                            "Revert to the original value for the rear clipping plane"
+    IDC_EYE_CLIPFRONT       "Enter a value for the front clipping plane"
+    IDC_EYE_CLIPREAR        "Enter a value for the rear clipping plane"
+    IDC_EYE_FROMY           "Enter a y value for the eye position"
+    IDC_EYE_FROMX           "Enter an x value for the eye position"
+    IDC_EYE_TOX             "Enter an x value for the focal point"
+    IDC_EYE_TOY             "Enter a y value for the focal point"
+    IDC_EYE_TOZ             "Enter a z value for the focal point"
+    IDC_EYE_FROMZ           "Enter a z value for the eye position"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_EYE_FOV             "Enter a value between 1 and 180 for the field of view"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDC_EYE_RESTORE_FROM    "Revert to the original eye position"
+    IDC_EYE_RESTORE_TO      "Revert to the original focal point"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\stage.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#include "afxolesv.rc"       // OLE server resources
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

@@ -1,0 +1,7 @@
+STAGE_SCRIPT
+light intensity 20
+light intensity 75 5
+-sleep 6
+light intensity 10 8
+-sleep 8
+NULL

@@ -1,0 +1,22 @@
+STAGE_SCRIPT
+conveyor VMAX 400
+conveyor ACCEL 150
+conveyor GO C1 100
+-sleep 4
+-view robot2 5
+conveyor TL TL1 1
+conveyor GO C2 50
+-sleep 4
+conveyor TL TL1 0
+-sleep 2
+conveyor TL TL1 1
+-sleep 3
+conveyor TL TL1 0
+-sleep 2
+conveyor TL TL1 1
+-sleep 3
+conveyor TL TL1 0
+-sleep 2
+conveyor TL TL1 1
+-sleep 3
+NULL

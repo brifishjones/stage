@@ -1,0 +1,360 @@
+{\rtf1\ansi\ansicpg1252\deff0\deflang1033{\fonttbl{\f0\fnil\fcharset0 Times New Roman;}{\f1\froman\fprq2\fcharset0 Times New Roman;}}
+\viewkind4\uc1\pard\f0\fs20 Welcome to the 3D world of Stage.  We are pleased that you are taking the time to browse through this manual, and will try our best to give you helpful hints to unlocking the full power of this Windows-based graphics package.  If you have experience with other 3D rendering software the first thing you will probably notice when you start to use Stage is the simplicity of the graphical user interface (GUI).  There are fewer buttons and menu choices than you might expect because many features are intuitively built into the basic design concept.  Enough said, let's get started by building a Stage workcell from scratch.\par
+\par
+The first item of business is to show you how to move around in the 3D world.  If you haven't already started Stage do so now.  You should see a new, empty workcell, consisting only of a yellow grid with a black background.\par
+\par
+\par
+\par
+Notice that there are two buttons at the northwest corner of the main window.  The top button, which has a picture of a globe on it (Fly mode), lets you fly around a pivot point, and the button with the hand on it (Pan Mode) let you move the workspace much as you would if you pushed a sheet of paper across a table.  Position the arrow cursor in the center of the main window, then press and hold the left mouse button and witness what happens when you drag the mouse.  Now try Pan Mode and notice how the method of movement changes.\par
+\par
+As you proceed through this tutorial you'll notice that there are a number of keyboard shortcuts that make manipulation around the workcell even faster.  With focus on the main window press the "1" key to select Fly mode, and the "2" key to select Pan mode.  If you accidently moved to an unintended location, pressing both the "Ctrl" and "Z" key will get you back to where you started.  (You can also select the \b Edit \b0 menu and chose \b Undo \b0 from the list of options to accomplish the same task).  Please not that Stage does not support multiple undos like many other programs.  You only have one chance to correct a mistake before moving on.\par
+\par
+Before we begin to populate the workcell with devices select \b New \b0 from the \b File \b0 menu to restore the eye to its original position.\par
+\par
+Now bring in several devices from the Stage library.  The location of the Stage library (stagelib) will depend on where it was placed on your hard drive during installation.  There are six subdirectories in the stagelib called:\par
+\tab 1. devices\par
+\tab 2. parts\par
+\tab 3. scripts\par
+\tab 4. simulations\par
+\tab 5. textures\par
+\tab 6. workcells\par
+\par
+Select the \b Device \b0 menu and you'll notice that most of the choices are grayed out at this point because the workcell is empty.  However both \b Create... \b0 and \b Import...\b0  are active.\par
+\par
+Choose \b Import... \b0 and the window titled \b STEP 1: Import Device \b0 will be shown in the foreground.\b\par
+\par
+\b0 Enter the unique name \i robot1 \i0 in the top edit box then click the OK button.\par
+\par
+The dialog with the title \b STEP 2: Choose a device \b0 will appear next.\par
+\par
+Locate the stagelib directory...\par
+\par
+\par
+...then proceed through folders devices, robots, staubli, select the file rx130, then click the Open button.\par
+\par
+A robot of a yellowish orange color will appear in the center of the main view.  You should also be aware that a third button, the Device Translate button, has appeared on the left below the Pan mode button.\par
+\par
+Move your eye closer to the robot by positioning the arrow cursor near the robot, and this time while pressing and holding the right mouse button drag the mouse to the right.  If you drag to the left your eye will move further away.  If you click and release the right mouse button anywhere on the robot the point you selected becomes the new pivot point.  Note how the point chosen is positioned in the middle of the main view window.\par
+\par
+To examine the details of the robot that was just imported simply double-click on the robot base and two dialog windows will appear to the right of the main view.  The top dialog contains generic information about each and every device you'll ever come across while the bottom dialog gives specific information about specialized devices such as robots, conveyors, grippers, lights, and cameras.  Bring the top dialog into focus and move the robot by:\par
+\par
+translating in the positive X direction.\par
+\par
+translating in the negative Y direction.\par
+\par
+rotating positive 90 degrees around the Z axis.\par
+\par
+Restore the original X, Y, Z translation values by clicking on the Translate button\par
+\par
+Restore the original X, Y, Z rotations by selecting the Rotate button.\par
+\par
+Click the cancel button at the upper right of the dialog window.\par
+\par
+A more intuitive way to move the robot around is to click the Device Translate button located on the left, position the arrow cursor over the robot, press and hold the left mouse button, and move the mouse to a desired location.  The robot will follow.  Note that after you have finished moving the device by releasing the left mouse button either Fly or Pan mode is automatically restored.  The keyboard shortcut for translating a device is "3."\par
+\par
+Next we will create a robot stand and position the robot on top of it.  Again select the Device menu, and this time choose Create... and the dialog titled \b STEP 1: Create Device \b0 will be shown in the foreground.\b\par
+\par
+\b0 Enter the unique name \i robotStand1 \i0 in the top edit box then click the OK button.\par
+\par
+The dialog with the title \b STEP 2: Choose Device Type \b0 will appear next.\par
+\par
+Make certain that \i 1 - Static Device \i0 is highlighted in the list box, then press the OK button (or press the Enter key).\par
+\par
+When the dialog with the title \b STEP 3: Choose a base part \b0 is shown locate the stagelib directory then proceed through folders Parts, Generic, select the file stand17X17X9in00 , then click the Open button.\par
+\par
+A yellow robot stand appears.  It may appear to be lodged inside the robot so translate it to where it can be seen more clearly, then select Current Part from the View menu.  When the dialog window with information about the stand appears to the right of the main window change the material to a metalic gray.  First enter the following values shown for Ambient in the Material group box:\par
+\par
+\par
+Select Diffuse from the listbox in the Material group box...\par
+\par
+\par
+...and enter in the following red, green, blue, and alpha values:\par
+\par
+Do the same for emission:\par
+\par
+\par
+Specular:\par
+\par
+\par
+and Wireframe:\par
+\par
+Set shininess to 50:\par
+\par
+\par
+Click the OK button at the top right of the dialog window.\par
+\par
+Double click on the base of the robot with the left mouse button and the robot dialog will appear to the right once again.  Select Part from listbox just to the right of the Snap To button, click the Snap To button, then click the gray robot stand in the main window with the left mouse button.  The robot should overlap the robot stand.  Click OK to close the robot dialog window.\par
+\par
+We really want the robot to be on top of the stand.  An easy way to accomplish this task is to use the analysis feature to find the distance between the very bottom of the robot and the very top of the robot stand.\par
+\par
+Choose \b Analysis...\b0  from the \b Help \b0 menu...\par
+\par
+\par
+...and Click the \b Vertex \b0 button when the Analysis dialog window appears.  With the left mouse button select a vertex on the bottom corner of the robot, and then a vertex on the top corner of the platform.\par
+\par
+The distance we need to move the robot up (the Z value) is 778.60 mm.  Click the Done button to close the analysis dialog,  then double click with the left mouse button on the robot.  Enter 778.60 in the Z translate edit box.  The robot should now be positioned on top of the stand.\par
+\par
+Gravity doesn't exist in most 3D computer graphics programs, including this one, so it is necessary to attach the robot to the stand.  Do so by choosing Attach... from the Device menu, and clicking on the stand with the left mouse button.  The message box should read "Device robot1 attached to robotStand1" if the attach was successful.\par
+\par
+This would be a good point to save our work.  Choose Save from the File menu go to the workcells folder and save the file as \i tutorial1\i0 .\par
+\par
+------------------------\par
+\par
+Next attach a jr3 sensor, a tool changer, and gripper to the robot.  \par
+\par
+Choose \b Import... \b0 from the Device menu and the window titled \b STEP 1: Import Device \b0 will be shown in the foreground.\b\par
+\par
+\b0 Enter the unique name \i jr3sensor1 \i0 in the top edit box then click the OK button.\par
+\par
+The dialog with the title \b STEP 2: Choose a device \b0 will appear next.\par
+\par
+Locate the stagelib directory then proceed through folders devices, static, select the file jr3sensor, then click the Open button.\par
+\par
+Select \b Current Part \b0 from \b View \b0 menu and when the dialog containing information about the jr3 sensor appears choose the Snap To button...\par
+\par
+...then zoom into and select the tip of the robot in the main window with the left mouse button.  Attach it to the robot by choosing Attach... from the Device menu and once again select the tip of the robot.\par
+\par
+Now select \b Create... \b0 from the \b Device \b0 menu and the dialog titled \b STEP 1: Create Device \b0 will be shown in the foreground.\b\par
+\par
+\b0 Enter the unique name \i toolChanger1 \i0 in the top edit box then click the OK button.\par
+\par
+The dialog with the title \b STEP 2: Choose Device Type \b0 will appear next.\par
+\par
+Make certain that \i 1 - Static Device \i0 is highlighted in the list box, then press the OK button (or press the Enter key).\par
+\par
+When the dialog with the title \b STEP 3: Choose a base part \b0 is shown locate the stagelib directory then proceed through folders Parts, Generic, select the file toolChanger00 , then click the Open button.\par
+\par
+Snap toolChanger1 to the polygon center of the jr3 sensor by double-clicking on toolChanger1 (or selecting Current Part from the View menu), clicking the Snap To button, and the polygon shown in figure 2.x.\par
+\par
+Click the \b Inherit \b0 button in the Material group box then select any point on the jr3 sensor that is colored gray, then click OK in the small Inherit Dialog window.\par
+\par
+Click OK on the toolChanger1 dialog box, then attach the toolChanger to the jr3 sensor by choosing \b Attach... \b0 from the \b Device \b0 menu and selecting any point on jr3sensor1.\par
+\par
+\par
+Choose \b Import... \b0 from the Device menu and the window titled \b STEP 1: Import Device \b0 will be shown in the foreground.\b\par
+\par
+\b0 Enter the unique name \i gripper1 \i0 in the top edit box then click the OK button.\par
+\par
+The dialog with the title \b STEP 2: Choose a device \b0 will appear next.\par
+\par
+Locate the stagelib directory then proceed through folders devices, grippers, select the file gripper, then click the Open button.\par
+\par
+Snap gripper1 to the part toolChanger01 by double-clicking the gray base the gripper (or selecting Current Part from the View menu), choosing Part from the listbox to the right of the Snap To button, clicking the Snap To button, and anywhere on the part toolChanger01.\par
+\par
+Locate the small dialog window titled Gripper at the lower right, click the Open button then the Close button and observe gripper1 in the main view.  Click OK on the dialog window titled gripper1,  then attach the gripper to the toolChanger.\par
+\par
+For a quick and easy way of changing the color of the tool changer from yellow to gray, double click on toolChanger1, click the Inherit button, choose a point on the base of the gripper and click OK on the small Inherit Material dialog window.\par
+\par
+Next import a Bosch conveyor.  Choose \b Import... \b0 from the Device menu and the window titled \b STEP 1: Import Device \b0 will be shown in the foreground.\b\par
+\par
+\b0 Enter the unique name \i conveyor \i0 in the top edit box then click the OK button.\par
+\par
+The dialog with the title \b STEP 2: Choose a device \b0 will appear next.\par
+\par
+Locate the stagelib directory then proceed through folders Devices, Conveyors, Bosch, select the file conveyor, then click the Open button.\par
+\par
+Zoom out and bring the conveyor into focus then double-click anywhere on the conveyor.  Enter 0.0 for the z translation then use the Device Translate button to move the conveyor so that it is not colliding with the robot. \par
+\par
+Import a conveyor pallet.  Choose \b Import... \b0 from the Device menu and the window titled \b STEP 1: Import Device \b0 will be shown in the foreground.\b\par
+\par
+\b0 Enter the unique name \i pallet1 \i0 in the top edit box then click the OK button.\par
+\par
+The dialog with the title \b STEP 2: Choose a device \b0 will appear next.\par
+\par
+Locate the stagelib directory then proceed through folders Devices, Conveyors, Bosch, select the file conveyorPallet, then click the Open button.  Choose Attach... from the Device menu and click a point anywhere on the conveyor.  The pallet will snap to the conveyor.  Press the Device Translate button and move the pallet to the end of conveyor that doesn't have the attached transverse segment.\par
+\par
+Next we'll clone the pallet.  Choose Clone... from the Device menu.  Name the pallet pallet2 and click OK.  The new pallet appears next to the old.  Choose Attach from the Device menu, then pick a point on the conveyor.  Pallet2 should be positioned next to pallet1.\par
+\par
+Clone a third pallet from the second by choosing Clone... from the Device menu.  Name the pallet pallet3 and click OK.  The new pallet appears next to the old.  Choose Attach from the Device menu, then pick a point on the conveyor.  Pallet3 should be positioned next to pallet2.\par
+\par
+---------------------------\par
+\par
+By now you should have good idea of how to move about the 3D workspace and the methods used to populate the workcell with devices. You should have noticed that by pressing and releasing the left button on top of a device and part automatically makes it the current, active device and part.  Save the work you have just completed, then select Open... from the File menu.  Proceed through folders stagelib, workcells, tutorials, and select the file chapter3.  The robot, gripper, conveyor, and pallets you created have been placed in a laboratory, and several additional devices now appear in the workcell.\par
+\par
+Often it is desirable to be able to move the eye to a predetermined position in the workspace.  Click the Eye Dialog button on left of the main window.\par
+\par
+The following box should appear at the top of the main window:\par
+\par
+\par
+In Fly mode move around the workspace and note that the From (x, y, z) position changes, but the To (x, y, z) position remains the same.  If you click the From button the position of the eye when the Eye Dialog was first opened is restored.  Select Pan mode and note that both From and To are altered.  Move the slider just below the FOV (field of view) button and note the behavior is like a zoom lens on a camera.  Click the FOV button to retore the original field of view.  There is also information about front and rear clipping planes, which may not make much sense, but are a necessary evil of computer graphics.  In order to view depth information correctly both objects that are very near the eye and objects that are far away can't been seen.  For now leave both Clip Front and Clip Rear values as they are.\par
+\par
+In Stage it is also possible to move the eye to a predetermined position.  Choose Eye Info from the View menu.  Select robot1 from the list of views then click the Go To button.  Repeat for robot2, operator, and tools.\par
+\par
+Create a new view by typing first typing in the following values in the Eye dialog window:\par
+\par
+Type in birdseye for the name of the view in the upper edit box of the Eye info dialog, then click the New button.  Click the Done button to close the Eye info window.\par
+\par
+Let's build one last device, a computer screen.  Select the Device menu, and choose Create... and the dialog titled \b STEP 1: Create Device \b0 will be shown in the foreground.\b\par
+\par
+\b0 Enter the unique name \i computer \i0 in the top edit box then click the OK button.\par
+\par
+The dialog with the title \b STEP 2: Choose Device Type \b0 will appear next.\par
+\par
+Make certain that \i 1 - Static Device \i0 is highlighted in the list box, then press the OK button (or press the Enter key).\par
+\par
+When the dialog with the title \b STEP 3: Choose a base part \b0 is shown locate the stagelib directory then proceed through folders Parts, Generic, select the file compMon00, then click the Open button.  A yellow computer monitor should appear at the center of the main view window.\par
+\par
+Even though the computer monitor is not positioned on top of the computer table go ahead and attach it to the computer table.  Select Attach... from the Device menu then click anywhere on the top of the computer table with the left mouse button.\par
+\par
+Now double click on the yellow computer monitor and when the dialog window appears to the right of the main view window select the Snap To button then top of the computer table. Set the Z rotation value to -90 degrees.  Click the Inherit button, choose a point on the base of the computer stand and click OK on the small Inherit Material dialog window then click OK to close the part dialog window\par
+\par
+Add a screen to the computer monitor by selecting Attach from the Part menu.\par
+\par
+Locate the stagelib directory then proceed through folders Parts, Generic, select the file compMon01 , then click the Open button.\par
+\par
+Make the monitor more realistic by applying a texture map, which is a 2D picture, to the front of the computer screen.  Double click the part compMon01 that you just created.  Click the New... button at the very bottom of the dialog window just below the frame labeled Texture.\par
+\par
+Locate the stagelib directory and proceed through folders Textures, Generic, select the file windowsDesktop, then click the Open button.\par
+\par
+Rotate the image to it's desired orientation by clicking the Rotate button in the Texture group box.  Note that a texture map can be applyed only to a four-sided  polygon (a rectangular portion of a part that resembles a billboard).\par
+\par
+The time has come to plug in the devices and have them perform a task.  Choose Eye Info... from the View menu, select robot1 from the list of views, click Go To, then close the Eye View Info window by clicking Done.\par
+\par
+Double click on robot1, then jog the robot by clicking the + and -- keys in the Joints group box of the Robot dialog window.  Click the Home button and note that all joint values go to zero.\par
+\par
+Now enter the following joint values:\par
+\par
+Touch the Enter key and the robot dialog window will close.\par
+\par
+The menu titled Tag will now be examined.  Briefly, a tag is a coordinate system to which a robot can move and a path consists of a group of tags.  By convention path names are often just a single or double character (\i a, q, rr\i0 , ...) and the tags themselves are integers (\i 1, 2, 3\i0 , ...) that are assigned automatically when a tag is created.  When a path is first created it is attached to the current part by default, so it is necessary to select the part you wish to be current before you create a path.  Go ahead and make the third pallet (pallet3) on the conveyor the current part.  The message window at the top of the main window should read \i Device: pallet3   Part: conPallet00\i0\par
+\par
+Select \b New Path... \b0 from the \b Tag \b0 menu.  The dialog titled \b Create Path \b0 will be shown in the foreground.\b\par
+\par
+\b0 Enter the unique name \i p \i0 in the top edit box then click the OK button.  A light gray tag should appear at the center of pallet3.\par
+\par
+\par
+\par
+Click anywhere on robot1 to make it the current device.  Select Tag on TCF from the Tag menu and the light gray coordinate system should snap to the \i robot1's \i0 tool center frame.\par
+\par
+Select Current Tag from the View menu.  Note that the name of the path is \i p\i0  and the tag number is \i 1\i0 .\par
+\par
+Change the Path color to blue and click the OK button:\par
+\par
+\par
+Double click on robot1 and select the Home button from the dialog window titled Robot.  Note that all joint values are 0.0 at the robot home position.\par
+\par
+Move the robot back to path p, tag 1 (p1) simply by positioning the arrow cursor over the tag then pressing and releasing the left mouse button.  The robot should move back to where it was before you pressed the Home button.  It's certainly much quicker to place a tag and have the robot move to the tag than to enter each of the appropriate joint values by hand.\par
+\par
+Close the robot dialog box by pressing the OK button.  Select \b Create \b0 from the \b Tag \b0 menu and when tag 2 appears in the center of pallet3 double click the tag to invoke the tag dialog window.  Choose Coordinate from the Snap to list, and click the first tag that was created.  Tag 2 should now overlap tag 1.  Now type 75.4 in the X Translate edit box and click the OK button.\par
+\par
+Create a third tag by selecting \b Create \b0 from the \b Tag \b0 menu and when tag 3 appears in the center of pallet3 select \b Current Tag \b0 from the \b View \b0 menu to invoke the tag dialog window.  Choose Coordinate from the Snap to list, and click the first tag that was created.  Tag 3 should now overlap tag 1.  Now type 75.0 in the Y Translate edit box and click the OK button.\par
+\par
+Create a fourth and final tag for path p by selecting \b Create \b0 from the \b Tag \b0 menu and when tag 4 appears in the center of pallet3 double click the tag to invoke the tag dialog window.  Choose Coordinate from the Snap to list, and click the first tag that was created.  Tag 4 should now overlap tag 1.  Now type 75.4 in the X Translate edit box and 75.0 in the Y Translate edit box, and click the OK button.\par
+\par
+\par
+Let's create another path.  First choose Eye Info... from the View menu, select \i tools \i0 from the list of views, click Go To, then close the Eye View Info window by clicking Done.\par
+\par
+Make the top of the gray table the current device.  The message window at the top of the main window should read \i Device: table   Part: table3X3ft00\i0 .  Zoom in so that the device \i barrettHand \i0 is clearly visible.\par
+\par
+Select New Path... from the Tag menu.  The dialog titled \b Create Path \b0 will be shown in the foreground.\b   \b0 Enter the unique name \i a \i0 in the top edit box then click the OK button.\par
+\par
+Select Current Tag from the View menu.  You can also double click on the tag to invoke the Tag dialog window and do the following:\par
+\par
+Change the Path color to orange.\par
+\par
+Choose part from the snap to listbox then click on the gray base of \i bhToolChanger\i0 .  Make certain that the Z offset is 590.1 the click OK.\par
+\par
+\par
+While you're here you might want to see what a BarrettHand actually does.  Double click on one of the Barretthand's three fingers.  Select Open below Joint then Open below Spread, then click the Cancel button at the top to restore the original values.\par
+\par
+Examine the scale by double clicking anywhere on it.  Select the Get Mass button in the Scale dialog window located to the lower right of the main window.  The mass should = 0.00.\par
+\par
+Now select Choose... from the Device menu, select cannisterRed1 from the list box, and click OK.  The message box at the top of the main window should read Current device: cannisterRed1   Part: cyclinder00.  Choose Detach from the Device menu so that it is no longer attached to the table.  Choose Current Part from the View menu and when the dialog appears to the right of the main window select the Snap To button then click the top of the scale with the left mouse button.\par
+\par
+Once again double click the scale and select the Get Mass button in the Scale dialog window.  The mass should now read xx.xx.  Note that you don't have to attach the cannister to the scale to get the proper mass, the scale object can read the mass intrinsically.\par
+\par
+\par
+The next device to look at is the bar code reader.  Double click anywhere on barCodeReader and when the Bar Code Reader dialog appears select the trigger on check box then click the Get Scan button.  Since there is no device intersecting any of the red scan lines get scan returns 000000000000.\par
+\par
+Click OK in the dialog window containing information about barCodeReader.  Now position the red cannister in direct contact with the red scan lines of the bar code reader by double clicking on cannisterRed1.  When the dialog window appears enter in the following translation values, then click OK:\par
+\par
+Double click anwhere on the barCodeReader, select the trigger on check box then click the Get Scan button.  If the cannister was correctly placed in front of the bar code reader get scan should return 0xxxxxyyyyy0.\par
+\par
+The conveyor needs a little more discussion than the barretthand, scale, and bar code reader.  There are five basic components to a conveyor system:\par
+\tab belts move forward and reverse\par
+\tab pallets transfer objects\par
+\tab stop gates halt the movement of pallets\par
+\tab sensors trigger when a pallet is at a specific location\par
+\tab tranverse lifts transfer pallets from one conveyor segent to another\par
+\par
+If you haven't already done so double click on the white base of the conveyor.  Select the + button, wait until the three pallets are in the middle of conveyor segment C1, then press the O button to stop movement.  The two stop gates, SG1 and SG2, should now both be visible.  Zoom in some so that the pallets and the second stop gate (SG2) are visible.  Select SG2 from the Stop Gate listbox then click the up button to the right.  The stop gate should raise.  Now click the + button again and wait for the pallets to be stopped by SG2.  Release pallet3 by clicking down, then 1 second later click the up button.  Pallet3 should go to the end of segment C1 and pallet1 and pallet2 should both be held up at SG2.\par
+\par
+Select C2 from the Segment list box and click the + button then click the up button to the right of transverse lift (TL1).  The lift raises and transfers pallet3 from segment C1 to C2.  Click the down button to the right of stop gate SG2 then 1 second later click the up button.  Pallet2 should go to the edge of the transverse lift. Click the down button to the right of TL1 and when the pallet reaches the end of segment C1 click up to transfer pallet2 from C1 to C2.\par
+\par
+On your own try to get pallet1 to the position shown below.\par
+\par
+Stage has built in safeguards to keep pallets from falling off of the conveyor belt.  Specifically:\par
+\tab the transverse lift cannot operate if a pallet straddles a portion of the lift.  It must be completely on or completely off the lift\par
+\tab a conveyor segment cannot be run in reverse with the forward stop gates up.  Both SG1 and SG2 are forward stop gates.\par
+\tab segment C2 cannot be run in reverse if the transverse lift is down.\par
+\par
+Touch the Enter key (or click OK) to close the conveyor dialog window.\par
+\par
+This would be a good time to talk about the Save and Save as... selections in the File menu both of which should be familiar from using other programs.  Please be aware that at times it is not desirable to save changes that you have made to a workcell--now is such a time.  We really don't want the red cannister hanging in mid-air in front of the bar code reader, or robot1 hovering over the conveyor, or the pallets in the positions they are now.  Rather we would like everything to be where it was when we began this chapter.  Now is not the time to add devices, tags, and views because in order to save the new additions it would be necessary to get each existing device to its original configuration as well, which often can involve a lot of work.\par
+\par
+\par
+The best time to save changes are\par
+\tab during the process of importing or creating devices.\par
+\tab after creating paths and tags.\par
+\tab when the devices are in position to begin a simulation.\par
+\tab\par
+Once scripts have been writen and the simulation process has begun things can get messy quickly.  The rule of thumb to follow is to first revert to the last saved copy by selecting Revert from the File menu or clicking the Rewind button in the script dialog window, before adding additional devices, tags, or new views.  Once you've made changes always remember to return to the eye to the starting simulation position (in this case the view named birdseye).\par
+\par
+\par
+If you are unclear about the state of the workcell at the time it was last saved choose Revert from File menu and you'll return to the original state.  Note that if you Revert to an original configuration you don't like if you immediately select Undo from the Edit menu you'll return to the state you were in before you selected Revert.\par
+\par
+We want all the devices to be where they were before we started experimenting with them so choose Revert from the File menu and you should be back in the same state you were at the start of this chapter.\par
+\par
+Be aware that there is no warning box asking to save changes made before you exit, create a new workcell, or open another workcell.  As a safeguard, if the workcell name is not untitled (i.e. has been previously saved) and write permission is granted for the directory containing the current workcell, a backup file called \i autoBackup \i0 is placed in the same directory as the current workcell when either New, Open..., or Exit is selected from the File menu.  Note if Save is chosen the previously saved file is written to autoBackup.\par
+\par
+---------------\par
+\par
+\par
+The next chapter of this turtorial involves writing a script to accomplish a given task.  The task at hand is to sort cylinders by bar code and weight then package each accordingly.  Each device has a set of commands which differ from manufacturer to manufacturer.  For instance the command set for the Staubli robot is different than the Bosch conveyor.  The set of commands Stage uses is the same as one would use to drive the actual hardware.  Some of the commands may seem a bit archaic but once you write and run a few scripts the commands will become more familiar.\par
+\par
+Select Open... from the File menu.  Proceed through folders stagelib, workcells, tutorials, and select the file chapter5.  The workcell will resemble the one you were working on, but you should notice that additional tags have been added.  Click the Script dialog button to the left of the main window.\par
+\par
+\par
+The script dialog window will appear to the right of the main window.  Enter the following 19 command lines in the script edit window:\par
+\par
+Click Save As... in the script dialog window and proceed through folders stagelib, scripts, tutorials, type in test5a for the name of the file, and click the Save button.\par
+\par
+Click the play button.  Observe the return codes in the message window just above the main window.  If the character  | or < preceeds the return message the command executed correctly.  If X preceeds the return sequence, an error was encountered.  Most often the command was improperly entered.  When the script finishes and all three pallets are on conveyor segment C2 click the pause button.\par
+\par
+\par
+\par
+\par
+Click the rewind button and return to the edit window and enter the following lines starting just after the last conveyor TL TL1 1 command that you typed in.\par
+\par
+\par
+\par
+\par
+Save the script as test3b.  Note that a different script is being used to drive devices in the same workcell.  In fact you could have hundreds of scripts that operate on a single workcell, which is the reason why scripts are kept in a separate folder.  Click the Play button.  Notice that the last command could not be executed because the robot was unable reach the intended tag for the configuration given.  Double click on robot1 and choose Lefty from the Orientation grouping and try to select tag X3 again.  The robot should now be able to reach its intended tag.  It can be an advantage to test a move before entering it as a scripting command.  Close the robot dialog by clicking the Cancel button.  The robot will return to its original configuration.  Click the Rewind button in the Script dialog and return to the edit window.  Replace the line xxxxxxxxxxx with yyyy then type in zzzzz at the end of the list.\par
+\par
+Click the Play button again to view the changes made.\par
+\par
+Let's look at the completed script for workcell chapter2.  Click Open... in the script dialog window, locate the stagelib directory and proceed through folders Scripts, Tutorial, select the file chapter2, then click the Open button.  Click the Rewind button to return to the starting configuration, then click the Play button.\par
+\par
+Stage has the capability of recording a standalone simulation of the animation that was just witnessed.  Click the Rewind button to return to the starting configuration.  Select the the Record Simulation button to the left of the main window.  When the dialog window titled Record Simulation appears proceed through folders stagelib, simulations, tutorials, type in testSim2 for the name of the file, and click the Save button then immediately press the Play button in the Script dialog window to begin recording.\par
+\par
+When the last command has finished execution click the Record Simulation button again to end the recording session.\par
+\par
+Select Open... from the File menu, and open testSim2, the file you just finished creating.  Note the changes to the graphical user interface.  One can no longer move around the workcell, all of the buttons to the left of the main view window are invisible, and most menu selections have been disabled.  There is a control pad to the top of the main window that has the features of a video playback device.\par
+\par
+Click the Play button and watch the first 30 seconds of the simulation then hit the Pause button, drag the slider about three-fourths of the way to the right, and release it.  Note that the simulation fast forwards.  Resume playback to the end.\par
+\pard\brdrb\brdrs\brdrw20\brsp20 \nowidctlpar\f1\par
+\pard\nowidctlpar Stage also has the ability to write out pictures (or bitmaps as they are often refered to) that can be compiled into a movie using commercially available software such as Adobe Premiere, then recorded to DVD.  Click the Rewind button then select Prefs... from the File menu.\par
+\par
+On the Render page in the Animation grouping deselect real-time mode, select output bitmap, type in 30 frames per second, and select anti-aliasing, a feature which makes jagged edges less pronounced.  From the Size menu select 640 X 480.  Click the Play button.  You'll immediately be aware that it takes much longer to get through the simulation because of the overhead required for anti-aliasing and writing out each image to file.  When about 4 simulated seconds (120 frames) have elapsed click the Pause button.\par
+\par
+To view an image written to file start the program Paint, an accessary that is shipped with the Windows operating system, and select Open... from its File menu.  Proceed through folders stagelib, simulations, tutorials, and observe that there are now a hundred or so bitmap files beginning with testSim2_000000.bmp  Open testSim2_000000.bmp and you should see the opening scene of the simulation.  If you look at testSim2_000075.bmp you'll see the 76th image of the simulation.  Note that each image is xxx. Mb .  If you were to output the entire simulation at a resolution of 640 X 480 pixels you'd need about xxx Gb of free disk space.\par
+\par
+There is one last button to the left of the main window that we haven't discussed yet.  Chances are you will never use it if scripts will suffice for the task at hand.  But for workcells with more complex programming requirements a high level programming language such as C, C++, or Visual Basic must be employed to get the job done in an automated manufacturing environment.  For this reason Stage allows other machines to connect one at a time using the TCP/IP protocol in a manner similar to the way a web browser connects to a web server.  The same set of commands used in the scripting language (except -sleep) are sent by the remote client to the Stage host to drive devices in the workcell.\par
+\par
+We won't go into the details of how a third party might write a complex program, rather show the steps that open up a port so that a remote client can connect to Stage.\par
+\par
+\par
+\par
+\pard\f0\par
+}
+ 

@@ -1,0 +1,99 @@
+STAGE_SCRIPT
+conveyor VMAX 400
+conveyor ACCEL 150
+conveyor GO C1 100
+-sleep 4
+-view robot2 5
+conveyor TL TL1 1
+conveyor GO C2 50
+-sleep 4
+conveyor TL TL1 0
+-sleep 2
+conveyor TL TL1 1
+-sleep 3
+conveyor TL TL1 0
+-sleep 2
+conveyor TL TL1 1
+-sleep 3
+conveyor TL TL1 0
+-sleep 2
+conveyor TL TL1 1
+-sleep 3
+-view tools 4
+robot2 APPRO a3 250.0
+-sleep 4
+robot2 SPEED 10
+robot2 MOVES a3
+-sleep 2
+-attach toolChanger2 jr3sensor2
+robot2 MOVE a7
+-sleep 2
+-view robot2 4
+robot2 MOVEJOINTS 160 -90 90 40 115 90
+-sleep 10
+camera ENABLE
+-sleep 3
+robot2 MOVE j2
+-sleep 7
+camera DISABLE
+robot2 MOVE a7
+-sleep 7
+robot2 MOVES a3
+-sleep 2
+-detach toolChanger2
+robot2 APPRO a3 250.0
+-sleep 2
+robot2 APPRO a2 250.0
+-sleep 2
+robot2 MOVES a2
+-sleep 2
+-attach toolChanger3 jr3sensor2
+robot2 MOVES a6
+-sleep 2
+robot2 SPEED 75
+-view cannisters 2
+robot2 APPRO b1 300
+-sleep 3
+gripper2 OPEN
+robot2 MOVES b1
+-sleep 1
+gripper2 CLOSE
+robot2 APPROS b1 300
+-sleep 1
+-view barCode 2.5
+robot2 APPRO a4 200
+-sleep 3
+barCodeReader TRIGGER
+-sleep 2
+robot2 MOVES a4
+-sleep 1
+barCodeReader GETSCAN
+-sleep 3
+-view robot2 2.0
+robot2 APPRO c1 200
+-sleep 2
+robot2 MOVES c1
+-sleep 1
+gripper2 OPEN
+-sleep 1
+robot2 APPROS c1 100
+-sleep 1
+scale KG
+-sleep 2
+robot2 MOVES c1
+-sleep 1
+gripper2 CLOSE
+-sleep 1
+robot2 APPROS c1 300
+-sleep 2
+-view conveyor 3
+robot2 APPRO p3 250
+-sleep 3
+robot2 MOVES p3
+-sleep 1
+gripper2 OPEN
+-sleep 1
+robot2 APPROS p3 250
+-sleep 1
+robot2 APPRO b2 300
+NULL

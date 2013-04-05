@@ -1,0 +1,1070 @@
+# Microsoft Developer Studio Generated NMAKE File, Format Version 40001
+# ** DO NOT EDIT **
+
+# TARGTYPE "Win32 (x86) Application" 0x0101
+
+!IF "$(CFG)" == ""
+CFG=stage - Win32 Debug
+!MESSAGE No configuration specified.  Defaulting to stage - Win32 Debug.
+!ENDIF 
+
+!IF "$(CFG)" != "stage - Win32 Release" && "$(CFG)" != "stage - Win32 Debug"
+!MESSAGE Invalid configuration "$(CFG)" specified.
+!MESSAGE You can specify a configuration when running NMAKE on this makefile
+!MESSAGE by defining the macro CFG on the command line.  For example:
+!MESSAGE 
+!MESSAGE NMAKE /f "stage.mak" CFG="stage - Win32 Debug"
+!MESSAGE 
+!MESSAGE Possible choices for configuration are:
+!MESSAGE 
+!MESSAGE "stage - Win32 Release" (based on "Win32 (x86) Application")
+!MESSAGE "stage - Win32 Debug" (based on "Win32 (x86) Application")
+!MESSAGE 
+!ERROR An invalid configuration is specified.
+!ENDIF 
+
+!IF "$(OS)" == "Windows_NT"
+NULL=
+!ELSE 
+NULL=nul
+!ENDIF 
+################################################################################
+# Begin Project
+# PROP Target_Last_Scanned "stage - Win32 Debug"
+CPP=cl.exe
+RSC=rc.exe
+MTL=mktyplib.exe
+
+!IF  "$(CFG)" == "stage - Win32 Release"
+
+# PROP BASE Use_MFC 6
+# PROP BASE Use_Debug_Libraries 0
+# PROP BASE Output_Dir "Release"
+# PROP BASE Intermediate_Dir "Release"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 6
+# PROP Use_Debug_Libraries 0
+# PROP Output_Dir "Release"
+# PROP Intermediate_Dir "Release"
+# PROP Target_Dir ""
+OUTDIR=.\Release
+INTDIR=.\Release
+
+ALL : "$(OUTDIR)\stage.exe"
+
+CLEAN : 
+	-@erase ".\Release\stage.exe"
+	-@erase ".\Release\stageDoc.obj"
+	-@erase ".\Release\stage.pch"
+	-@erase ".\Release\stage.obj"
+	-@erase ".\Release\StagePrefsLighting.obj"
+	-@erase ".\Release\StagePrefsRender.obj"
+	-@erase ".\Release\StageMotionViewHistory.obj"
+	-@erase ".\Release\stageView.obj"
+	-@erase ".\Release\StageViewPart.obj"
+	-@erase ".\Release\StagePropPage2.obj"
+	-@erase ".\Release\SrvrItem.obj"
+	-@erase ".\Release\IpFrame.obj"
+	-@erase ".\Release\StageEyeMotion.obj"
+	-@erase ".\Release\MainFrm.obj"
+	-@erase ".\Release\StdAfx.obj"
+	-@erase ".\Release\StageDeviceTransformation.obj"
+	-@erase ".\Release\StageChooseName.obj"
+	-@erase ".\Release\StagePrefsGrid.obj"
+	-@erase ".\Release\StageDeviceTree.obj"
+	-@erase ".\Release\StageChooseDevice.obj"
+	-@erase ".\Release\stage.res"
+	-@erase ".\Release\StageEyeDialog.obj"
+
+"$(OUTDIR)" :
+    if not exist "$(OUTDIR)/$(NULL)" mkdir "$(OUTDIR)"
+
+# ADD BASE CPP /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Yu"stdafx.h" /c
+# ADD CPP /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Yu"stdafx.h" /c
+CPP_PROJ=/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D\
+ "_AFXDLL" /D "_MBCS" /Fp"$(INTDIR)/stage.pch" /Yu"stdafx.h" /Fo"$(INTDIR)/" /c 
+CPP_OBJS=.\Release/
+CPP_SBRS=
+# ADD BASE MTL /nologo /D "NDEBUG" /win32
+# ADD MTL /nologo /D "NDEBUG" /win32
+MTL_PROJ=/nologo /D "NDEBUG" /win32 
+# ADD BASE RSC /l 0x409 /d "NDEBUG" /d "_AFXDLL"
+# ADD RSC /l 0x409 /d "NDEBUG" /d "_AFXDLL"
+RSC_PROJ=/l 0x409 /fo"$(INTDIR)/stage.res" /d "NDEBUG" /d "_AFXDLL" 
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+BSC32_FLAGS=/nologo /o"$(OUTDIR)/stage.bsc" 
+BSC32_SBRS=
+LINK32=link.exe
+# ADD BASE LINK32 /nologo /subsystem:windows /machine:I386
+# ADD LINK32 opengl32.lib glu32.lib glaux.lib /nologo /subsystem:windows /machine:I386
+LINK32_FLAGS=opengl32.lib glu32.lib glaux.lib /nologo /subsystem:windows\
+ /incremental:no /pdb:"$(OUTDIR)/stage.pdb" /machine:I386\
+ /out:"$(OUTDIR)/stage.exe" 
+LINK32_OBJS= \
+	"$(INTDIR)/stageDoc.obj" \
+	"$(INTDIR)/stage.obj" \
+	"$(INTDIR)/StagePrefsLighting.obj" \
+	"$(INTDIR)/StagePrefsRender.obj" \
+	"$(INTDIR)/StageMotionViewHistory.obj" \
+	"$(INTDIR)/stageView.obj" \
+	"$(INTDIR)/StageViewPart.obj" \
+	"$(INTDIR)/StagePropPage2.obj" \
+	"$(INTDIR)/SrvrItem.obj" \
+	"$(INTDIR)/IpFrame.obj" \
+	"$(INTDIR)/StageEyeMotion.obj" \
+	"$(INTDIR)/MainFrm.obj" \
+	"$(INTDIR)/StdAfx.obj" \
+	"$(INTDIR)/StageDeviceTransformation.obj" \
+	"$(INTDIR)/StageChooseName.obj" \
+	"$(INTDIR)/StagePrefsGrid.obj" \
+	"$(INTDIR)/StageDeviceTree.obj" \
+	"$(INTDIR)/StageChooseDevice.obj" \
+	"$(INTDIR)/StageEyeDialog.obj" \
+	"$(INTDIR)/stage.res"
+
+"$(OUTDIR)\stage.exe" : "$(OUTDIR)" $(DEF_FILE) $(LINK32_OBJS)
+    $(LINK32) @<<
+  $(LINK32_FLAGS) $(LINK32_OBJS)
+<<
+
+!ELSEIF  "$(CFG)" == "stage - Win32 Debug"
+
+# PROP BASE Use_MFC 6
+# PROP BASE Use_Debug_Libraries 1
+# PROP BASE Output_Dir "Debug"
+# PROP BASE Intermediate_Dir "Debug"
+# PROP BASE Target_Dir ""
+# PROP Use_MFC 6
+# PROP Use_Debug_Libraries 1
+# PROP Output_Dir "Debug"
+# PROP Intermediate_Dir "Debug"
+# PROP Target_Dir ""
+OUTDIR=.\Debug
+INTDIR=.\Debug
+
+ALL : "$(OUTDIR)\stage.exe" "$(OUTDIR)\stage.bsc"
+
+CLEAN : 
+	-@erase ".\Debug\vc40.pdb"
+	-@erase ".\Debug\stage.pch"
+	-@erase ".\Debug\vc40.idb"
+	-@erase ".\Debug\stage.bsc"
+	-@erase ".\Debug\StageMotionViewHistory.sbr"
+	-@erase ".\Debug\StagePrefsGrid.sbr"
+	-@erase ".\Debug\StagePrefsLighting.sbr"
+	-@erase ".\Debug\StageChooseDevice.sbr"
+	-@erase ".\Debug\stageView.sbr"
+	-@erase ".\Debug\StageViewPart.sbr"
+	-@erase ".\Debug\stage.sbr"
+	-@erase ".\Debug\StageChooseName.sbr"
+	-@erase ".\Debug\MainFrm.sbr"
+	-@erase ".\Debug\stageDoc.sbr"
+	-@erase ".\Debug\StageDeviceTree.sbr"
+	-@erase ".\Debug\StageDeviceTransformation.sbr"
+	-@erase ".\Debug\StagePrefsRender.sbr"
+	-@erase ".\Debug\StagePropPage2.sbr"
+	-@erase ".\Debug\StageEyeMotion.sbr"
+	-@erase ".\Debug\IpFrame.sbr"
+	-@erase ".\Debug\StdAfx.sbr"
+	-@erase ".\Debug\SrvrItem.sbr"
+	-@erase ".\Debug\StageEyeDialog.sbr"
+	-@erase ".\Debug\stage.exe"
+	-@erase ".\Debug\SrvrItem.obj"
+	-@erase ".\Debug\StageMotionViewHistory.obj"
+	-@erase ".\Debug\StagePrefsGrid.obj"
+	-@erase ".\Debug\StagePrefsLighting.obj"
+	-@erase ".\Debug\StageChooseDevice.obj"
+	-@erase ".\Debug\stageView.obj"
+	-@erase ".\Debug\StageViewPart.obj"
+	-@erase ".\Debug\stage.obj"
+	-@erase ".\Debug\StageChooseName.obj"
+	-@erase ".\Debug\MainFrm.obj"
+	-@erase ".\Debug\stageDoc.obj"
+	-@erase ".\Debug\StageDeviceTree.obj"
+	-@erase ".\Debug\StageDeviceTransformation.obj"
+	-@erase ".\Debug\StagePrefsRender.obj"
+	-@erase ".\Debug\StagePropPage2.obj"
+	-@erase ".\Debug\StageEyeMotion.obj"
+	-@erase ".\Debug\IpFrame.obj"
+	-@erase ".\Debug\StdAfx.obj"
+	-@erase ".\Debug\stage.res"
+	-@erase ".\Debug\StageEyeDialog.obj"
+	-@erase ".\Debug\stage.ilk"
+	-@erase ".\Debug\stage.pdb"
+
+"$(OUTDIR)" :
+    if not exist "$(OUTDIR)/$(NULL)" mkdir "$(OUTDIR)"
+
+# ADD BASE CPP /nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Yu"stdafx.h" /c
+# ADD CPP /nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR /Yu"stdafx.h" /c
+CPP_PROJ=/nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS"\
+ /D "_AFXDLL" /D "_MBCS" /FR"$(INTDIR)/" /Fp"$(INTDIR)/stage.pch" /Yu"stdafx.h"\
+ /Fo"$(INTDIR)/" /Fd"$(INTDIR)/" /c 
+CPP_OBJS=.\Debug/
+CPP_SBRS=.\Debug/
+# ADD BASE MTL /nologo /D "_DEBUG" /win32
+# ADD MTL /nologo /D "_DEBUG" /win32
+MTL_PROJ=/nologo /D "_DEBUG" /win32 
+# ADD BASE RSC /l 0x409 /d "_DEBUG" /d "_AFXDLL"
+# ADD RSC /l 0x409 /d "_DEBUG" /d "_AFXDLL"
+RSC_PROJ=/l 0x409 /fo"$(INTDIR)/stage.res" /d "_DEBUG" /d "_AFXDLL" 
+BSC32=bscmake.exe
+# ADD BASE BSC32 /nologo
+# ADD BSC32 /nologo
+BSC32_FLAGS=/nologo /o"$(OUTDIR)/stage.bsc" 
+BSC32_SBRS= \
+	"$(INTDIR)/StageMotionViewHistory.sbr" \
+	"$(INTDIR)/StagePrefsGrid.sbr" \
+	"$(INTDIR)/StagePrefsLighting.sbr" \
+	"$(INTDIR)/StageChooseDevice.sbr" \
+	"$(INTDIR)/stageView.sbr" \
+	"$(INTDIR)/StageViewPart.sbr" \
+	"$(INTDIR)/stage.sbr" \
+	"$(INTDIR)/StageChooseName.sbr" \
+	"$(INTDIR)/MainFrm.sbr" \
+	"$(INTDIR)/stageDoc.sbr" \
+	"$(INTDIR)/StageDeviceTree.sbr" \
+	"$(INTDIR)/StageDeviceTransformation.sbr" \
+	"$(INTDIR)/StagePrefsRender.sbr" \
+	"$(INTDIR)/StagePropPage2.sbr" \
+	"$(INTDIR)/StageEyeMotion.sbr" \
+	"$(INTDIR)/IpFrame.sbr" \
+	"$(INTDIR)/StdAfx.sbr" \
+	"$(INTDIR)/SrvrItem.sbr" \
+	"$(INTDIR)/StageEyeDialog.sbr"
+
+"$(OUTDIR)\stage.bsc" : "$(OUTDIR)" $(BSC32_SBRS)
+    $(BSC32) @<<
+  $(BSC32_FLAGS) $(BSC32_SBRS)
+<<
+
+LINK32=link.exe
+# ADD BASE LINK32 /nologo /subsystem:windows /debug /machine:I386
+# ADD LINK32 opengl32.lib glu32.lib glaux.lib /nologo /subsystem:windows /debug /machine:I386
+LINK32_FLAGS=opengl32.lib glu32.lib glaux.lib /nologo /subsystem:windows\
+ /incremental:yes /pdb:"$(OUTDIR)/stage.pdb" /debug /machine:I386\
+ /out:"$(OUTDIR)/stage.exe" 
+LINK32_OBJS= \
+	"$(INTDIR)/SrvrItem.obj" \
+	"$(INTDIR)/StageMotionViewHistory.obj" \
+	"$(INTDIR)/StagePrefsGrid.obj" \
+	"$(INTDIR)/StagePrefsLighting.obj" \
+	"$(INTDIR)/StageChooseDevice.obj" \
+	"$(INTDIR)/stageView.obj" \
+	"$(INTDIR)/StageViewPart.obj" \
+	"$(INTDIR)/stage.obj" \
+	"$(INTDIR)/StageChooseName.obj" \
+	"$(INTDIR)/MainFrm.obj" \
+	"$(INTDIR)/stageDoc.obj" \
+	"$(INTDIR)/StageDeviceTree.obj" \
+	"$(INTDIR)/StageDeviceTransformation.obj" \
+	"$(INTDIR)/StagePrefsRender.obj" \
+	"$(INTDIR)/StagePropPage2.obj" \
+	"$(INTDIR)/StageEyeMotion.obj" \
+	"$(INTDIR)/IpFrame.obj" \
+	"$(INTDIR)/StdAfx.obj" \
+	"$(INTDIR)/StageEyeDialog.obj" \
+	"$(INTDIR)/stage.res"
+
+"$(OUTDIR)\stage.exe" : "$(OUTDIR)" $(DEF_FILE) $(LINK32_OBJS)
+    $(LINK32) @<<
+  $(LINK32_FLAGS) $(LINK32_OBJS)
+<<
+
+!ENDIF 
+
+.c{$(CPP_OBJS)}.obj:
+   $(CPP) $(CPP_PROJ) $<  
+
+.cpp{$(CPP_OBJS)}.obj:
+   $(CPP) $(CPP_PROJ) $<  
+
+.cxx{$(CPP_OBJS)}.obj:
+   $(CPP) $(CPP_PROJ) $<  
+
+.c{$(CPP_SBRS)}.sbr:
+   $(CPP) $(CPP_PROJ) $<  
+
+.cpp{$(CPP_SBRS)}.sbr:
+   $(CPP) $(CPP_PROJ) $<  
+
+.cxx{$(CPP_SBRS)}.sbr:
+   $(CPP) $(CPP_PROJ) $<  
+
+################################################################################
+# Begin Target
+
+# Name "stage - Win32 Release"
+# Name "stage - Win32 Debug"
+
+!IF  "$(CFG)" == "stage - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "stage - Win32 Debug"
+
+!ENDIF 
+
+################################################################################
+# Begin Source File
+
+SOURCE=.\ReadMe.txt
+
+!IF  "$(CFG)" == "stage - Win32 Release"
+
+!ELSEIF  "$(CFG)" == "stage - Win32 Debug"
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\stage.cpp
+
+!IF  "$(CFG)" == "stage - Win32 Release"
+
+DEP_CPP_STAGE=\
+	".\StdAfx.h"\
+	".\stage.h"\
+	".\MainFrm.h"\
+	".\IpFrame.h"\
+	".\stageDoc.h"\
+	".\stageView.h"\
+	".\StagePrefsRender.h"\
+	".\StagePrefsGrid.h"\
+	".\StagePrefsLighting.h"\
+	".\StageDeviceTree.h"\
+	".\StageMotionViewHistory.h"\
+	".\StageChooseName.h"\
+	".\StageChooseDevice.h"\
+	".\StageViewPart.h"\
+	".\StageDeviceTransformation.h"\
+	
+NODEP_CPP_STAGE=\
+	".\StageEyeDialog.h"\
+	
+
+"$(INTDIR)\stage.obj" : $(SOURCE) $(DEP_CPP_STAGE) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ELSEIF  "$(CFG)" == "stage - Win32 Debug"
+
+DEP_CPP_STAGE=\
+	".\StdAfx.h"\
+	".\stage.h"\
+	".\MainFrm.h"\
+	".\IpFrame.h"\
+	".\stageDoc.h"\
+	".\stageView.h"\
+	
+
+"$(INTDIR)\stage.obj" : $(SOURCE) $(DEP_CPP_STAGE) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+"$(INTDIR)\stage.sbr" : $(SOURCE) $(DEP_CPP_STAGE) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\StdAfx.cpp
+DEP_CPP_STDAF=\
+	".\StdAfx.h"\
+	
+
+!IF  "$(CFG)" == "stage - Win32 Release"
+
+# ADD CPP /Yc"stdafx.h"
+
+BuildCmds= \
+	$(CPP) /nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D\
+ "_AFXDLL" /D "_MBCS" /Fp"$(INTDIR)/stage.pch" /Yc"stdafx.h" /Fo"$(INTDIR)/" /c\
+ $(SOURCE) \
+	
+
+"$(INTDIR)\StdAfx.obj" : $(SOURCE) $(DEP_CPP_STDAF) "$(INTDIR)"
+   $(BuildCmds)
+
+"$(INTDIR)\stage.pch" : $(SOURCE) $(DEP_CPP_STDAF) "$(INTDIR)"
+   $(BuildCmds)
+
+!ELSEIF  "$(CFG)" == "stage - Win32 Debug"
+
+# ADD CPP /Yc"stdafx.h"
+
+BuildCmds= \
+	$(CPP) /nologo /MDd /W3 /Gm /GX /Zi /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS"\
+ /D "_AFXDLL" /D "_MBCS" /FR"$(INTDIR)/" /Fp"$(INTDIR)/stage.pch" /Yc"stdafx.h"\
+ /Fo"$(INTDIR)/" /Fd"$(INTDIR)/" /c $(SOURCE) \
+	
+
+"$(INTDIR)\StdAfx.obj" : $(SOURCE) $(DEP_CPP_STDAF) "$(INTDIR)"
+   $(BuildCmds)
+
+"$(INTDIR)\StdAfx.sbr" : $(SOURCE) $(DEP_CPP_STDAF) "$(INTDIR)"
+   $(BuildCmds)
+
+"$(INTDIR)\stage.pch" : $(SOURCE) $(DEP_CPP_STDAF) "$(INTDIR)"
+   $(BuildCmds)
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\MainFrm.cpp
+DEP_CPP_MAINF=\
+	".\StdAfx.h"\
+	".\stage.h"\
+	".\stageDoc.h"\
+	".\stageView.h"\
+	".\MainFrm.h"\
+	".\StagePrefsRender.h"\
+	".\StagePrefsGrid.h"\
+	".\StagePrefsLighting.h"\
+	".\StageDeviceTree.h"\
+	".\StageMotionViewHistory.h"\
+	".\StageChooseName.h"\
+	".\StageChooseDevice.h"\
+	".\StageViewPart.h"\
+	".\StageDeviceTransformation.h"\
+	".\StageEyeDialog.h"\
+	
+
+!IF  "$(CFG)" == "stage - Win32 Release"
+
+
+"$(INTDIR)\MainFrm.obj" : $(SOURCE) $(DEP_CPP_MAINF) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ELSEIF  "$(CFG)" == "stage - Win32 Debug"
+
+
+"$(INTDIR)\MainFrm.obj" : $(SOURCE) $(DEP_CPP_MAINF) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+"$(INTDIR)\MainFrm.sbr" : $(SOURCE) $(DEP_CPP_MAINF) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\stageDoc.cpp
+
+!IF  "$(CFG)" == "stage - Win32 Release"
+
+DEP_CPP_STAGED=\
+	".\StdAfx.h"\
+	".\stage.h"\
+	".\stageDoc.h"\
+	".\SrvrItem.h"\
+	".\stageView.h"\
+	".\MainFrm.h"\
+	".\StagePrefsRender.h"\
+	".\StagePrefsGrid.h"\
+	".\StagePrefsLighting.h"\
+	".\StageDeviceTree.h"\
+	".\StageMotionViewHistory.h"\
+	".\StageChooseName.h"\
+	".\StageChooseDevice.h"\
+	".\StageViewPart.h"\
+	".\StageDeviceTransformation.h"\
+	
+NODEP_CPP_STAGED=\
+	".\StageEyeDialog.h"\
+	
+
+"$(INTDIR)\stageDoc.obj" : $(SOURCE) $(DEP_CPP_STAGED) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ELSEIF  "$(CFG)" == "stage - Win32 Debug"
+
+DEP_CPP_STAGED=\
+	".\StdAfx.h"\
+	".\stage.h"\
+	".\stageDoc.h"\
+	".\SrvrItem.h"\
+	".\stageView.h"\
+	".\MainFrm.h"\
+	
+
+"$(INTDIR)\stageDoc.obj" : $(SOURCE) $(DEP_CPP_STAGED) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+"$(INTDIR)\stageDoc.sbr" : $(SOURCE) $(DEP_CPP_STAGED) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\stageView.cpp
+DEP_CPP_STAGEV=\
+	".\StdAfx.h"\
+	".\stage.h"\
+	".\stageDoc.h"\
+	".\stageView.h"\
+	".\MainFrm.h"\
+	".\StagePrefsRender.h"\
+	".\StagePrefsGrid.h"\
+	".\StagePrefsLighting.h"\
+	".\StageDeviceTree.h"\
+	".\StageMotionViewHistory.h"\
+	".\StageChooseName.h"\
+	".\StageChooseDevice.h"\
+	".\StageViewPart.h"\
+	".\StageDeviceTransformation.h"\
+	".\StageEyeDialog.h"\
+	
+
+!IF  "$(CFG)" == "stage - Win32 Release"
+
+
+"$(INTDIR)\stageView.obj" : $(SOURCE) $(DEP_CPP_STAGEV) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ELSEIF  "$(CFG)" == "stage - Win32 Debug"
+
+
+"$(INTDIR)\stageView.obj" : $(SOURCE) $(DEP_CPP_STAGEV) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+"$(INTDIR)\stageView.sbr" : $(SOURCE) $(DEP_CPP_STAGEV) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\SrvrItem.cpp
+DEP_CPP_SRVRI=\
+	".\StdAfx.h"\
+	".\stage.h"\
+	".\stageDoc.h"\
+	".\SrvrItem.h"\
+	
+
+!IF  "$(CFG)" == "stage - Win32 Release"
+
+
+"$(INTDIR)\SrvrItem.obj" : $(SOURCE) $(DEP_CPP_SRVRI) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ELSEIF  "$(CFG)" == "stage - Win32 Debug"
+
+
+"$(INTDIR)\SrvrItem.obj" : $(SOURCE) $(DEP_CPP_SRVRI) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+"$(INTDIR)\SrvrItem.sbr" : $(SOURCE) $(DEP_CPP_SRVRI) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\IpFrame.cpp
+DEP_CPP_IPFRA=\
+	".\StdAfx.h"\
+	".\stage.h"\
+	".\IpFrame.h"\
+	
+
+!IF  "$(CFG)" == "stage - Win32 Release"
+
+
+"$(INTDIR)\IpFrame.obj" : $(SOURCE) $(DEP_CPP_IPFRA) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ELSEIF  "$(CFG)" == "stage - Win32 Debug"
+
+
+"$(INTDIR)\IpFrame.obj" : $(SOURCE) $(DEP_CPP_IPFRA) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+"$(INTDIR)\IpFrame.sbr" : $(SOURCE) $(DEP_CPP_IPFRA) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\stage.rc
+DEP_RSC_STAGE_=\
+	".\res\stage.ico"\
+	".\res\stageDoc.ico"\
+	".\res\Toolbar.bmp"\
+	".\res\IToolbar.bmp"\
+	".\res\stage.rc2"\
+	
+
+"$(INTDIR)\stage.res" : $(SOURCE) $(DEP_RSC_STAGE_) "$(INTDIR)"
+   $(RSC) $(RSC_PROJ) $(SOURCE)
+
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\StagePrefsRender.cpp
+DEP_CPP_STAGEP=\
+	".\StdAfx.h"\
+	".\stage.h"\
+	".\StagePrefsRender.h"\
+	".\stageDoc.h"\
+	
+
+!IF  "$(CFG)" == "stage - Win32 Release"
+
+
+"$(INTDIR)\StagePrefsRender.obj" : $(SOURCE) $(DEP_CPP_STAGEP) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ELSEIF  "$(CFG)" == "stage - Win32 Debug"
+
+
+"$(INTDIR)\StagePrefsRender.obj" : $(SOURCE) $(DEP_CPP_STAGEP) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+"$(INTDIR)\StagePrefsRender.sbr" : $(SOURCE) $(DEP_CPP_STAGEP) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\StagePrefsGrid.cpp
+
+!IF  "$(CFG)" == "stage - Win32 Release"
+
+DEP_CPP_STAGEPR=\
+	".\StdAfx.h"\
+	".\stage.h"\
+	".\StagePrefsGrid.h"\
+	
+
+"$(INTDIR)\StagePrefsGrid.obj" : $(SOURCE) $(DEP_CPP_STAGEPR) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ELSEIF  "$(CFG)" == "stage - Win32 Debug"
+
+DEP_CPP_STAGEPR=\
+	".\StdAfx.h"\
+	".\stage.h"\
+	".\StagePrefsGrid.h"\
+	
+NODEP_CPP_STAGEPR=\
+	".\}"\
+	
+
+"$(INTDIR)\StagePrefsGrid.obj" : $(SOURCE) $(DEP_CPP_STAGEPR) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+"$(INTDIR)\StagePrefsGrid.sbr" : $(SOURCE) $(DEP_CPP_STAGEPR) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\StagePrefsLighting.cpp
+DEP_CPP_STAGEPRE=\
+	".\StdAfx.h"\
+	".\stage.h"\
+	".\StagePrefsLighting.h"\
+	
+
+!IF  "$(CFG)" == "stage - Win32 Release"
+
+
+"$(INTDIR)\StagePrefsLighting.obj" : $(SOURCE) $(DEP_CPP_STAGEPRE) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ELSEIF  "$(CFG)" == "stage - Win32 Debug"
+
+
+"$(INTDIR)\StagePrefsLighting.obj" : $(SOURCE) $(DEP_CPP_STAGEPRE) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+"$(INTDIR)\StagePrefsLighting.sbr" : $(SOURCE) $(DEP_CPP_STAGEPRE) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\StageDeviceTree.cpp
+DEP_CPP_STAGEDE=\
+	".\StdAfx.h"\
+	".\stage.h"\
+	".\StageDeviceTree.h"\
+	
+
+!IF  "$(CFG)" == "stage - Win32 Release"
+
+
+"$(INTDIR)\StageDeviceTree.obj" : $(SOURCE) $(DEP_CPP_STAGEDE) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ELSEIF  "$(CFG)" == "stage - Win32 Debug"
+
+
+"$(INTDIR)\StageDeviceTree.obj" : $(SOURCE) $(DEP_CPP_STAGEDE) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+"$(INTDIR)\StageDeviceTree.sbr" : $(SOURCE) $(DEP_CPP_STAGEDE) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\StageMotionViewHistory.cpp
+DEP_CPP_STAGEM=\
+	".\StdAfx.h"\
+	".\stage.h"\
+	".\StageMotionViewHistory.h"\
+	".\stageDoc.h"\
+	".\stageView.h"\
+	
+
+!IF  "$(CFG)" == "stage - Win32 Release"
+
+
+"$(INTDIR)\StageMotionViewHistory.obj" : $(SOURCE) $(DEP_CPP_STAGEM)\
+ "$(INTDIR)" "$(INTDIR)\stage.pch"
+
+
+!ELSEIF  "$(CFG)" == "stage - Win32 Debug"
+
+
+"$(INTDIR)\StageMotionViewHistory.obj" : $(SOURCE) $(DEP_CPP_STAGEM)\
+ "$(INTDIR)" "$(INTDIR)\stage.pch"
+
+"$(INTDIR)\StageMotionViewHistory.sbr" : $(SOURCE) $(DEP_CPP_STAGEM)\
+ "$(INTDIR)" "$(INTDIR)\stage.pch"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\StageViewPart.cpp
+
+!IF  "$(CFG)" == "stage - Win32 Release"
+
+DEP_CPP_STAGEVI=\
+	".\StdAfx.h"\
+	".\stage.h"\
+	".\stageDoc.h"\
+	".\stageView.h"\
+	".\MainFrm.h"\
+	".\StagePrefsRender.h"\
+	".\StagePrefsGrid.h"\
+	".\StagePrefsLighting.h"\
+	".\StageDeviceTree.h"\
+	".\StageMotionViewHistory.h"\
+	".\StageChooseName.h"\
+	".\StageChooseDevice.h"\
+	".\StageViewPart.h"\
+	".\StageDeviceTransformation.h"\
+	
+NODEP_CPP_STAGEVI=\
+	".\StageEyeDialog.h"\
+	
+
+"$(INTDIR)\StageViewPart.obj" : $(SOURCE) $(DEP_CPP_STAGEVI) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ELSEIF  "$(CFG)" == "stage - Win32 Debug"
+
+DEP_CPP_STAGEVI=\
+	".\StdAfx.h"\
+	".\stage.h"\
+	".\stageDoc.h"\
+	".\stageView.h"\
+	".\MainFrm.h"\
+	
+
+"$(INTDIR)\StageViewPart.obj" : $(SOURCE) $(DEP_CPP_STAGEVI) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+"$(INTDIR)\StageViewPart.sbr" : $(SOURCE) $(DEP_CPP_STAGEVI) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\StageChooseName.cpp
+
+!IF  "$(CFG)" == "stage - Win32 Release"
+
+DEP_CPP_STAGEC=\
+	".\StdAfx.h"\
+	".\stage.h"\
+	".\stageDoc.h"\
+	".\stageView.h"\
+	".\MainFrm.h"\
+	".\StagePrefsRender.h"\
+	".\StagePrefsGrid.h"\
+	".\StagePrefsLighting.h"\
+	".\StageDeviceTree.h"\
+	".\StageMotionViewHistory.h"\
+	".\StageChooseName.h"\
+	".\StageChooseDevice.h"\
+	".\StageViewPart.h"\
+	".\StageDeviceTransformation.h"\
+	
+NODEP_CPP_STAGEC=\
+	".\StageEyeDialog.h"\
+	
+
+"$(INTDIR)\StageChooseName.obj" : $(SOURCE) $(DEP_CPP_STAGEC) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ELSEIF  "$(CFG)" == "stage - Win32 Debug"
+
+DEP_CPP_STAGEC=\
+	".\StdAfx.h"\
+	".\stage.h"\
+	".\stageDoc.h"\
+	".\stageView.h"\
+	".\MainFrm.h"\
+	
+
+"$(INTDIR)\StageChooseName.obj" : $(SOURCE) $(DEP_CPP_STAGEC) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+"$(INTDIR)\StageChooseName.sbr" : $(SOURCE) $(DEP_CPP_STAGEC) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\StageChooseDevice.cpp
+
+!IF  "$(CFG)" == "stage - Win32 Release"
+
+DEP_CPP_STAGECH=\
+	".\StdAfx.h"\
+	".\stage.h"\
+	".\stageDoc.h"\
+	".\stageView.h"\
+	".\MainFrm.h"\
+	".\StagePrefsRender.h"\
+	".\StagePrefsGrid.h"\
+	".\StagePrefsLighting.h"\
+	".\StageDeviceTree.h"\
+	".\StageMotionViewHistory.h"\
+	".\StageChooseName.h"\
+	".\StageChooseDevice.h"\
+	".\StageViewPart.h"\
+	".\StageDeviceTransformation.h"\
+	
+NODEP_CPP_STAGECH=\
+	".\StageEyeDialog.h"\
+	
+
+"$(INTDIR)\StageChooseDevice.obj" : $(SOURCE) $(DEP_CPP_STAGECH) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ELSEIF  "$(CFG)" == "stage - Win32 Debug"
+
+DEP_CPP_STAGECH=\
+	".\StdAfx.h"\
+	".\stage.h"\
+	".\stageDoc.h"\
+	".\stageView.h"\
+	".\MainFrm.h"\
+	
+
+"$(INTDIR)\StageChooseDevice.obj" : $(SOURCE) $(DEP_CPP_STAGECH) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+"$(INTDIR)\StageChooseDevice.sbr" : $(SOURCE) $(DEP_CPP_STAGECH) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\StageDeviceTransformation.cpp
+DEP_CPP_STAGEDEV=\
+	".\StdAfx.h"\
+	".\stage.h"\
+	".\StageDeviceTransformation.h"\
+	
+
+!IF  "$(CFG)" == "stage - Win32 Release"
+
+
+"$(INTDIR)\StageDeviceTransformation.obj" : $(SOURCE) $(DEP_CPP_STAGEDEV)\
+ "$(INTDIR)" "$(INTDIR)\stage.pch"
+
+
+!ELSEIF  "$(CFG)" == "stage - Win32 Debug"
+
+
+"$(INTDIR)\StageDeviceTransformation.obj" : $(SOURCE) $(DEP_CPP_STAGEDEV)\
+ "$(INTDIR)" "$(INTDIR)\stage.pch"
+
+"$(INTDIR)\StageDeviceTransformation.sbr" : $(SOURCE) $(DEP_CPP_STAGEDEV)\
+ "$(INTDIR)" "$(INTDIR)\stage.pch"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\StagePropPage2.cpp
+DEP_CPP_STAGEPRO=\
+	".\StdAfx.h"\
+	".\stage.h"\
+	".\StagePropPage2.h"\
+	
+
+!IF  "$(CFG)" == "stage - Win32 Release"
+
+
+"$(INTDIR)\StagePropPage2.obj" : $(SOURCE) $(DEP_CPP_STAGEPRO) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ELSEIF  "$(CFG)" == "stage - Win32 Debug"
+
+
+"$(INTDIR)\StagePropPage2.obj" : $(SOURCE) $(DEP_CPP_STAGEPRO) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+"$(INTDIR)\StagePropPage2.sbr" : $(SOURCE) $(DEP_CPP_STAGEPRO) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\StageEyeMotion.cpp
+DEP_CPP_STAGEE=\
+	".\StdAfx.h"\
+	".\stage.h"\
+	".\StageEyeMotion.h"\
+	
+
+!IF  "$(CFG)" == "stage - Win32 Release"
+
+
+"$(INTDIR)\StageEyeMotion.obj" : $(SOURCE) $(DEP_CPP_STAGEE) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ELSEIF  "$(CFG)" == "stage - Win32 Debug"
+
+
+"$(INTDIR)\StageEyeMotion.obj" : $(SOURCE) $(DEP_CPP_STAGEE) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+"$(INTDIR)\StageEyeMotion.sbr" : $(SOURCE) $(DEP_CPP_STAGEE) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ENDIF 
+
+# End Source File
+################################################################################
+# Begin Source File
+
+SOURCE=.\StageEyeDialog.cpp
+DEP_CPP_STAGEEY=\
+	".\StdAfx.h"\
+	".\stage.h"\
+	".\StageEyeDialog.h"\
+	
+
+!IF  "$(CFG)" == "stage - Win32 Release"
+
+
+"$(INTDIR)\StageEyeDialog.obj" : $(SOURCE) $(DEP_CPP_STAGEEY) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ELSEIF  "$(CFG)" == "stage - Win32 Debug"
+
+
+"$(INTDIR)\StageEyeDialog.obj" : $(SOURCE) $(DEP_CPP_STAGEEY) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+"$(INTDIR)\StageEyeDialog.sbr" : $(SOURCE) $(DEP_CPP_STAGEEY) "$(INTDIR)"\
+ "$(INTDIR)\stage.pch"
+
+
+!ENDIF 
+
+# End Source File
+# End Target
+# End Project
+################################################################################

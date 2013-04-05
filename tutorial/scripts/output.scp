@@ -1,0 +1,84 @@
+STAGE_SCRIPT
+-view convSouth 5
+-sleep 6.0
+con1 TL TL1 1
+-sleep 2.0
+con1 GO C2 -100.0
+-sleep 5.0
+con1 STOP C2
+-sleep 1.0
+con1 TL TL1 0
+-sleep 3.0
+con1 GO C1 -100.0
+-sleep 2.0
+-view conv 4
+-sleep 5.0
+-view wNorth 5
+-sleep 6.0
+con1 STOP
+rx130north SPEED 20
+rx130north APPRO n2 100
+-view toolsNorth 0
+-sleep 7.0
+rx130north SPEED 5
+rx130north MOVES n2
+-sleep 4.0
+-attach bhToolChanger jr3north
+rx130north MOVES n3
+-view wCenter 0
+rx130north SPEED 10
+rx130north APPRO n2 400
+rx130north APPRO r1 200
+rx130south APPRO s2 100
+rx130south SPEED 5
+rx130south MOVES s2
+-attach toolChangerSouth jr3south
+rx130south MOVES s3
+rx130south SPEED 25
+rx130south APPRO a1 200
+-view rTab 5
+rotaryTable D144000
+rotaryTable G
+gripperSouth OPEN
+bhNorth OPEN
+bhNorth SPREAD 0
+rx130north APPRO p2 325
+rx130north SPEED 5
+rx130north APPROS p2 225
+bhNorth CLOSE 82 20 82 20 82 20
+rx130south FLIP
+rx130south APPRO p1 350
+rx130south SPEED 5
+rx130south APPROS p1 165
+gripperSouth CLOSE
+rx130north APPROS r4 225 8
+rx130south APPROS r3 165 8
+-view pipe 3
+rx130north APPROS r6 225 15
+rx130north APPROS r8 225 12
+rx130south APPROS r7 165 12
+rx130north APPROS r10 225 10
+rx130south APPROS r9 165 10
+bhNorth OPEN
+gripperSouth OPEN
+-attach pipe3X36 conPalletBR
+rx130north APPROS r10 350 5
+rx130south APPROS r9 350 5
+-view wCenter 4
+rx130north SPEED 20
+rx130south SPEED 30
+rx130north MOVE n1
+rx130south MOVE s1
+con1 SG SG2 1
+con1 GO C1 100.0
+-view wSouth 3
+con1 TL TL1 1
+con1 SG SG2 0
+con1 SG SG2 1
+con1 TL TL1 0
+con1 GO C2 100.0
+con1 TL TL1 1
+con1 SG SG2 0
+con1 STOP
+-view birdseye 5
+NULL

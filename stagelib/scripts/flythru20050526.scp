@@ -1,0 +1,10 @@
+STAGE_SCRIPT
+-view cam01 2
+-sleep 2
+-view cam02 4
+-sleep 4
+-view cam03 3
+-sleep 3
+-view cam10 3
+-sleep 3
+NULL

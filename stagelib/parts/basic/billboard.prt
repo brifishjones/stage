@@ -1,0 +1,16 @@
+VERTEX 0.0 0.0 0.0
+VERTEX 50.0 0.0 0.0
+VERTEX 50.0 0.0 50.0
+VERTEX 0.0 0.0 50.0
+POLYGON 4
+0
+1
+2
+3
+TEXTURE 8449
+0.0 0.0
+1.0 0.0
+1.0 1.0
+0.0 1.0
+TEXTURE_FILE ..\..\stagelib\textures\hippo.bmp
+NULL

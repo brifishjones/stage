@@ -1,0 +1,249 @@
+STAGE_SCRIPT
+conveyor VMAX 400
+conveyor ACCEL 150
+conveyor GO C1 100
+-sleep 4
+-view robot2 5
+conveyor TL TL1 1
+conveyor GO C2 50
+-sleep 4
+conveyor TL TL1 0
+-sleep 2
+conveyor TL TL1 1
+-sleep 3
+conveyor TL TL1 0
+-sleep 2
+conveyor TL TL1 1
+-sleep 3
+conveyor TL TL1 0
+-sleep 2
+conveyor TL TL1 1
+-sleep 3
+conveyor STOP
+-view tools 4
+robot2 APPRO a3 250.0
+-sleep 4
+robot2 SPEED 10
+robot2 MOVES a3
+-sleep 2
+-attach toolChanger2 jr3sensor2
+robot2 MOVES a7
+-sleep 2
+-view robot2 4
+robot2 MOVEJOINTS 160 -90 90 40 115 90
+-sleep 10
+camera ENABLE
+-sleep 3
+robot2 MOVE j2
+-sleep 7
+camera DISABLE
+robot2 MOVE a7
+-sleep 7
+robot2 MOVES a3
+-sleep 2
+-detach toolChanger2
+robot2 APPRO a3 250.0
+-sleep 2
+robot2 APPRO a2 250.0
+-sleep 2
+robot2 MOVES a2
+-sleep 2
+-attach toolChanger3 jr3sensor2
+robot2 MOVES a6
+-sleep 2
+robot2 SPEED 75
+-view cannisters 2
+robot2 APPRO b1 300
+-sleep 3
+gripper2 OPEN
+robot2 MOVES b1
+-sleep 1
+gripper2 CLOSE
+robot2 APPROS b1 300
+-sleep 1
+-view barCode 2.5
+robot2 APPRO a4 200
+-sleep 3
+barCodeReader TRIGGER
+-sleep 2
+robot2 MOVES a4
+-sleep 1
+barCodeReader GETSCAN
+-sleep 3
+robot2 APPRO c1 200
+-sleep 2
+robot2 MOVES c1
+-sleep 1
+gripper2 OPEN
+-sleep 1
+robot2 APPROS c1 100
+-sleep 1
+scale KG
+-sleep 2
+robot2 MOVES c1
+-sleep 1
+gripper2 CLOSE
+-sleep 1
+robot2 APPROS c1 300
+-sleep 2
+-view conveyor 3
+robot2 APPRO p3 250
+-sleep 3
+robot2 MOVES p3
+-sleep 1
+gripper2 OPEN
+-sleep 1
+robot2 APPROS p3 250
+-sleep 1
+robot2 APPRO b2 300
+-sleep 2
+gripper2 OPEN
+robot2 MOVES b2
+-sleep .65
+gripper2 CLOSE
+-sleep .25
+robot2 APPROS b2 300
+-sleep .65
+-view barCode 2.0
+robot2 APPRO a4 200
+-sleep 2.5
+barCodeReader TRIGGER
+-sleep 1
+robot2 MOVES a4
+-sleep 1
+barCodeReader GETSCAN
+-sleep 1
+-view robot2 1.5
+robot2 APPRO c1 200
+-sleep 1.5
+robot2 MOVES c1
+-sleep .65
+gripper2 OPEN
+-sleep .65
+robot2 APPROS c1 100
+-sleep .65
+scale KG
+-sleep 1
+robot2 MOVES c1
+-sleep .65
+gripper2 CLOSE
+-sleep .25
+robot2 APPROS c1 300
+-sleep .65
+-view conveyor 3
+robot2 RIGHTY
+robot2 APPRO o3 150
+-sleep 3
+robot2 MOVES o3
+-sleep 1.5
+gripper2 OPEN
+-sleep 1
+robot2 APPROS o3 200
+-sleep 1.5
+robot2 CONFIG 0 0 0
+robot2 MOVE j1
+-sleep 2.5
+-attach cylinderRed1 pallet1
+-position cylinderRed1 -75 75 20.2 0 0 0
+-sleep 1
+-attach cylinderRed2 pallet1
+-position cylinderRed2 -75 -75 20.2 0 0 0
+-sleep 1
+-attach cylinderBlue1 pallet3
+-position cylinderBlue1 75 75 20.2 0 0 0
+-sleep 1
+-attach cylinderBlue3 pallet3
+-position cylinderBlue3 -75 -75 20.2 0 0 0
+-sleep 1
+-attach cylinderRed3 pallet1
+-position cylinderRed3 75 75 20.2 0 0 0
+-sleep 1
+-attach cylinderGreen4 pallet2
+-position cylinderGreen4 75 75 20.2 0 0 0
+-sleep 1
+-attach cylinderBlue4 pallet3
+-position cylinderBlue4 75 -75 20.2 0 0 0
+-sleep 1
+-attach cylinderGreen2 pallet2
+-position cylinderGreen2 -75 -75 20.2 0 0 0
+-sleep 1
+-view tools 2.0
+robot2 APPRO a6
+-sleep 2
+robot2 MOVES a2
+-sleep 1
+-detach toolChanger3
+robot2 APPRO a1 100
+-sleep 1.5
+robot2 MOVES a1
+-sleep 0.5
+-attach bhToolChanger jr3sensor2
+robot2 MOVES a5
+-sleep 1
+-view cannisters 2.0
+robot2 APPRO b13 100
+-sleep 3
+barrettHand OPEN
+-sleep 3
+barrettHand SPREAD 0
+-sleep 3
+robot2 APPRO b11 100
+-sleep 1
+robot2 MOVES b11
+-sleep 0.5
+barrettHand CLOSE 80 20 80 20 80 20
+-sleep 2
+robot2 MOVES b13
+-sleep 1
+-view conveyor 3
+-sleep 2.5
+robot2 RIGHTY
+robot2 MOVE f2
+-sleep 3
+robot2 MOVES f1
+-sleep 1
+barrettHand OPEN
+-sleep 2
+robot2 APPROS f1 50
+-sleep 0.5
+robot2 APPROS f2 50 
+-sleep 0.5
+conveyor GO C2 -25
+robot2 LEFTY
+robot2 APPRO b12 100
+-sleep 3
+conveyor STOP
+conveyor TL TL1 0
+conveyor GO C1 -10
+robot2 MOVES b12
+-sleep 0.5
+barrettHand CLOSE 80 20 80 20 80 20
+-sleep 2
+robot2 RIGHTY
+robot2 MOVE f2
+-sleep 3
+conveyor TL TL1 1
+robot2 MOVES f1
+-sleep 1
+barrettHand OPEN
+-sleep 2
+robot2 APPROS f1 50
+-sleep 0.5
+robot2 APPROS f2 50 
+-sleep 0.5
+conveyor GO C2 -25
+robot2 LEFTY
+robot2 MOVE j2
+-sleep 3
+conveyor STOP C2
+conveyor TL TL1 0
+-sleep 5
+conveyor TL TL1 1
+-sleep 0.5
+conveyor GO C2 -25
+-sleep 3
+conveyor STOP C2
+conveyor TL TL1 0
+-sleep 2
+-view operator 10
+NULL

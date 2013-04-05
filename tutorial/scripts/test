@@ -1,0 +1,9 @@
+STAGE_SCRIPT
+-view convSouth 5
+-sleep 6.0
+con1 TL TL1 1
+-sleep 2.0
+con1 GO C2 -100.0
+-sleep 5.0
+con1 STOP C2
+NULL
